@@ -1,0 +1,205 @@
+/* Staff */
+
+.contenido_staff {
+padding:0 15px 5px 15px;
+margin-top:1.2em;
+cursor:default;
+}
+
+.contenido_staff a {
+color:#CCCCCC;
+}
+
+.contenido_staff a:hover {
+color:#FFFFFF;
+}
+
+.contenido_staff h2 {
+margin:0;
+font-family:Georgia;
+font-size:24px;
+color:#D2D2D2;
+font-weight:normal;
+text-align:center;
+position:relative;
+top:8px;
+}
+
+.contenido_staff h3 {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:21px;
+letter-spacing:0.2em;
+color:#AA5500;
+text-align:center;
+}
+
+.contenido_staff h4 {
+background-color:#F8EFD3;
+border:#666666 1px solid;
+padding:10px;
+margin:0;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:0.95em;
+color:#000000;
+font-weight:bold;
+text-align:center;
+}
+
+.contenido_staff fieldset {
+padding:5px;
+cursor:default;
+border: 2px solid #666666;
+margin-bottom:20px;
+}
+
+.contenido_staff fieldset:hover {
+cursor:default;
+border-color:#CCCCCC;
+}
+
+.contenido_staff legend {
+border:#666666 1px solid;
+padding:3px;
+color:#FFFFFF;
+background-color:#333333;
+font-weight:bold;
+font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.contenido_staff fieldset ul {
+padding:0;
+padding-top:8px;
+margin:0;
+}
+
+.contenido_staff fieldset li {
+list-style:none;
+padding:5px;
+font-family:"Trebuchet MS";
+font-weight:bold;
+font-size:14px;
+color:#FFFFFF;
+text-align:left;
+}
+
+.contenido_staff .busca_staff {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:16px;
+background-color:#E1D79B;
+border:#CF9C3D;
+padding:5px;
+margin:5px;
+letter-spacing:0.1em;
+border:#806926 2px solid;
+line-height:1.3em;
+text-align:justify;
+}
+
+#staff fieldset {
+padding:5px;
+cursor:default;
+border: 1px solid #666666;
+margin-bottom:20px;
+}
+#staff fieldset:hover {
+cursor:default;
+border: 1px solid #CCCCCC;
+}
+#staff legend {
+border:#666666 1px solid;
+padding:3px;
+color:#FFFFFF;
+background-color:#333333;
+font-weight:bold;
+font-family:Georgia, "Times New Roman", Times, serif;
+}
+#staff fieldset ul {
+padding:0;
+padding-top:8px;
+margin:0;
+}
+#staff fieldset li {
+list-style:none;
+padding:5px;
+font-family:Verdana;
+font-size:14px;
+color:#FDF0C8;
+}
+
+#staff .busca_staff {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:16px;
+background-color:#E1D79B;
+border:#CF9C3D;
+padding:5px;
+margin:5px;
+letter-spacing:0.1em;
+line-height:1.3em;
+text-align:justify;
+}
+
+#ingresa_al_staff {
+	padding-bottom:20px;
+}
+
+#ingresa_al_staff h3 {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+letter-spacing:0.1em;
+color:#AA5500;
+text-align:center;
+}
+
+#ingresa_al_staff label {
+font-family:Verdana;
+font-size:12px;
+font-weight:bold;
+color:#FFFFFF;
+display:block;
+width:180px;
+cursor:pointer;
+margin:0 auto;
+}
+
+#ingresa_al_staff .input {
+font-family:Verdana;
+font-size:12px;
+color:#000000;
+width:180px;
+border:#666666 1px solid;
+background:#CCCCCC;
+}
+
+#ingresa_al_staff .input:hover {
+border:#CCCCCC 1px solid;
+background-color:#999999;
+}
+
+
+#ingresa_al_staff .textarea,
+#ingresa_al_staff .select {
+font-family:Verdana;
+font-size:12px;
+color:#000000;
+width:180px;
+border:#666666 1px solid;
+}
+
+#ingresa_al_staff .enviar {
+width:100px;
+background-color:#000000;
+font-family:Verdana;
+font-size:12px;
+font-weight:bold;
+color:#ae6400;
+border:#666666 1px solid;
+cursor:hand;
+cursor:pointer;
+}
+
+fieldset > p {
+color: #CCCCCC;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: italic;
+}

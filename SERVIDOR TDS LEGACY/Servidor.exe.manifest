@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+    <assemblyIdentity name="Servidor" processorArchitecture="X86" type="win32" version="1.0.0.0" />
+    <description>TDS Legacy</description>
+    <file name="Aurora.Network.dll">
+        <typelib tlbid="{88D89F7C-BB59-4F13-9850-93CBD874039D}" version="1.5" flags="hasdiskimage" helpdir="" />
+        <comClass clsid="{9BE50AF2-385F-4C56-9826-65C320451642}" tlbid="{88D89F7C-BB59-4F13-9850-93CBD874039D}" progid="Reader.Reader.1" threadingModel="apartment">
+            <progid>Reader.Reader</progid>
+        </comClass>
+        <comClass clsid="{25DEA4F0-4C5B-4674-B357-2C6FFE8ABF46}" tlbid="{88D89F7C-BB59-4F13-9850-93CBD874039D}" progid="Writer.Writer.1" threadingModel="apartment">
+            <progid>Writer.Writer</progid>
+        </comClass>
+        <comClass clsid="{07CC11E3-D300-4CD4-9EB0-C4EB4D63865D}" tlbid="{88D89F7C-BB59-4F13-9850-93CBD874039D}" progid="Client.Client.1" threadingModel="apartment">
+            <progid>Client.Client</progid>
+        </comClass>
+        <comClass clsid="{ACF5D638-7DDD-443D-B9B4-E5DC3C01BB4C}" tlbid="{88D89F7C-BB59-4F13-9850-93CBD874039D}" progid="Group.Group.1" threadingModel="apartment">
+            <progid>Group.Group</progid>
+        </comClass>
+        <comClass clsid="{AC398261-6275-4797-950A-5B914DDB2130}" tlbid="{88D89F7C-BB59-4F13-9850-93CBD874039D}" progid="Server.Server.1" threadingModel="apartment">
+            <progid>Server.Server</progid>
+        </comClass>
+    </file>
+</assembly>

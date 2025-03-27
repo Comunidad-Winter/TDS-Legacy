@@ -1,0 +1,184 @@
+/* Estilos existentes */
+.contenido_reglamento {
+    padding: 0 5px 5px 0;
+    cursor: default;
+}
+
+.ul_reglamento {
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+    list-style: none;
+}
+
+.ul_reglamento li {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: "microsoft sans serif";
+    font-size: .75em;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.ul_reglamento .subli {
+    margin-left: 20px;
+}
+
+.ul_reglamento .sublii {
+    margin-left: 30px;
+}
+
+.ul_reglamento .subliii {
+    margin-left: 40px;
+}
+
+.ul_reglamento .volver_indice {
+    float: right;
+}
+
+.ul_reglamento a.link_aotds {
+    cursor: pointer;
+    font-family: "microsoft sans serif";
+    font-size: .75em;
+    font-weight: 700;
+    color: #00387d;
+    text-decoration: none;
+}
+
+.ul_reglamento a.link_aotds:hover {
+    color: #000;
+}
+
+.volver_indice {
+    font-family: "microsoft sans serif";
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #00387d;
+    text-decoration: none;
+    display: block;
+    width: 80px;
+    background: url(/imagenes/bg_entrar.gif);
+    text-align: center;
+    cursor: pointer;
+}
+
+.volver_indice:hover {
+    color: #000;
+}
+
+.ul_reglamento .numero {
+    color: #600;
+    font-family: Georgia;
+    border-right: #600 1px dashed;
+    font-size: 1.2em;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+
+.ul_reglamento .titulo {
+    margin: 0;
+}
+
+.contenido_reglamento h1 {
+    margin: 0;
+    margin-left: 10px; /* Ajusta según necesidad para mover más a la izquierda */
+    font-family: Georgia;
+    font-size: 24px;
+    color: #623300;
+    font-weight: 400;
+    text-align: left; /* Cambiado de center a left */
+    position: relative;
+    top: 8px;
+}
+
+.contenido_reglamento h2 {
+    margin: 0;
+    font-family: Georgia;
+    font-size: 1.2em;
+    color: #333;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+
+.contenido_reglamento h3 {
+    margin: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: .95em;
+    color: #000;
+    font-weight: 700;
+    text-align: left;
+}
+
+.contenido_reglamento h4 {
+    background-color: #f8efd3;
+    border: #666 1px solid;
+    padding: 10px;
+    margin: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: .95em;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contenido_reglamento p {
+    margin: 0;
+    font-family: "microsoft sans serif";
+    font-size: .75em;
+    font-weight: 700;
+    color: #442300;
+    text-align: center;
+    cursor: text;
+}
+
+.menu_reglamento {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.ul_links {
+    text-align: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ul_links .subli {
+    margin-left: 20px;
+}
+
+.ul_links .sublii {
+    margin-left: 30px;
+}
+
+.ul_links .subliii {
+    margin-left: 40px;
+}
+
+.menu_reglamento h3 a {
+    margin: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: .95em;
+    color: #000;
+    font-weight: 700;
+    text-align: left;
+}
+
+.menu_reglamento a {
+    cursor: pointer;
+    font-family: "microsoft sans serif";
+    font-size: .75em;
+    font-weight: 700;
+    color: #00387d;
+    text-decoration: none;
+}
+
+.menu_reglamento a:hover {
+    color: #000;
+}
+
+/* Asegúrate de que los cambios sean efectivos y de que no haya otras reglas que sobrescriban estos ajustes. Si es necesario, puedes usar !important para forzar la aplicación de estos estilos. */

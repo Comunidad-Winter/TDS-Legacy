@@ -1,0 +1,6 @@
+# Activar la reescritura de URL
+RewriteEngine On
+
+# Permitir el acceso a archivos .js y .php
+RewriteCond %{REQUEST_URI} !^.*\.(js|php)$
+RewriteRule ^ - [F]

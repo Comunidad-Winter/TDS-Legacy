@@ -1,0 +1,40 @@
+<div class="titulo_seccion"><h1>🔧Más correcciones</h1></div><div id="main"><div id="contenido"><div class="caja_margen"><div class="caja"><div class="caja_shadow_t"><div class="caja_shadow_b"><div class="caja_l"><div class="caja_r"><div class="caja_t"><div class="caja_b"><div class="caja_noticia"><h2>🔧Más correcciones</h2><p>- Si sos newbie solo podes hacer Party con otros personajes newbies<br>
+- Ahora el daño se dibuja correctamente<br>
+- Se removió los mensajes que decían que pescó unos lindos peces o que no pescó nada<br>
+- Mapa 60: Ya no se puede traspasar la pared y salir de Banderbill como sucedía en TDS.<br>
+- Al dejar trabado con bloq num para la auto-caminata dejaba de caminar si cambias de ventana<br>
+- El fatuo tiene un 25% de probabilidad de lanzar inmovilizar (antes tenía un 100%)<br>
+- Se arregló el drag and drop haciendo click en la mano en la ventana principal<br>
+- Party: ahora podes ver el progreso de la experiencia siendo miembro de la misma (tecla F7)<br>
+- Party: Había un error que hacía explotar el juego de los miembros.<br>
+- Ahora los fondos de los dungeons son completamente negros<br>
+- Fix: Se solucionó el error que causaba que el Updater se trabase en 59% en reiteradas ocasiones<br>
+- Ahora si apuñalas el daño que se dibuja es únicamente el golpe extra del apu<br>
+- Mapa 28: Ahora se llama 'Bosque de arañas' y se arreglaron los grh de los árboles<br>
+- El boton Cerrar en el formulario Cambiar teclas ya funciona correctamente y revisa si hay cambios sin guardar<br>
+- Se agregó nuevamente la lluvia<br>
+- Ya no podes usar drag and drop en retos<br>
+- Fix: Había un error que, cuando estabas en party y ganabas mucha experiencia se rompía la misma<br>
+- Polo: Ahora si no tenes la ropa invernal te moris de frío<br>
+- Si estás en un dungeon >= 25 y estás desnudo te moris de frio<br>
+- Ahora al terminar los retos 1vs1 se limpian las arenas usadas<br>
+- Se arregló el cálculo de venta en los comercios (Reportado por remilia)<br>
+- Ahora el misil mágico y la flecha se ven cuando se lanzan<br>
+- Ahora la pantalla principal no titila al tomar pociones o en diversas ocasiones<br>
+- Ahora podes ver el comercio con el Npc en tiempo real, si otro usuario compra vos lo ves<br>
+- Había un error que hacía que las clases trabajadoras pegasen por cero<br>
+- Al pasar el mouse sobre el botón de inventario/hechizos se pone una mano <br>
+- El oro va a billetera si son 10.000 monedas de oro<br>
+- fix: Ahora el cazador puede equipar todos sus equipamentos<br>
+- Ahora se puede alternar el efecto en los Layer1 (lava, agua, etc) desde opciones<br>
+- Ahora se puede alternar el efecto de dopas desde opciones<br>
+- /ONLINE ahora sólo muestra los nicks de personajes que no sean GM ni de clase trabajadora<br>
+- fix: Solucionado el bug que causaba que se deslogueasen los personajes al estar quieto<br>
+- Se removió la librería mscomctl<br>
+- fix: Si te envenenaban y morías el envenenamiento no se iba<br>
+- fix: Al morir sonaban los pasos de los caspers<br>
+- El hambre y sed disminuía demasiado rápido (Reportado por AK)<br>
+- fix: Si te dopabas con pociones no volvía nunca más a sus atributos originales (Reportado por AK)<br>
+- fix: Ahora el caza se queda oculto para siempre si tiene >=90 skills en ocultarse y equipada su armadura de cazador correspondiente (Reportado por AK)<br>
+- Si el personaje está oculto no se muestra el efecto de ataque (por ejemplo una flecha)<br>
+- fix: Ahora los Newbies trabajadores inician con daga y no con herramientas (Reportado por AK)<br></p><div class="por_l"><div class="por_r"><div class="por_contenido"> <span class="dato">Fecha: 2023-01-10 23-57-14</span> - Por: <span class="dato">Cuicui</span></div></div></div></div></div></div></div></div></div></div></div></div>

@@ -1,0 +1,131 @@
+/* Historial de noticias */
+
+.contenido_historial {
+text-align:left;
+font-family:"Trebuchet MS";
+}
+
+.contenido_historial h1 {
+font-family:Georgia;
+font-size:12pt;
+padding:0;
+margin:0;
+line-height:20px;
+color:#343434;
+}
+
+.contenido_historial h2 {
+font-weight:normal;
+font-size:13pt;
+padding:0 0 0 8px;
+margin:0;
+line-height:18px;
+}
+
+.contenido_historial h3 {
+font-weight:bold;
+padding:0 0 0 8px;
+margin:0;
+line-height:18px;
+}
+
+.contenido_historial h3 a {
+padding-left:15px;
+font-family:"Microsoft Sans Serif";
+font-size:11px;
+font-weight:bold;
+color:#00387D;
+text-decoration:underline;
+cursor:pointer;
+}
+
+.caja_noticia {
+padding:0 20px 5px 20px;
+cursor:default;
+}
+
+.caja_noticia .shortnews {
+padding:10px;
+}
+
+.caja_noticia .fullnews {
+padding:10px;
+}
+
+.caja_noticia p a:link {
+font-family:"Microsoft Sans Serif";
+font-size:0.9em;
+font-weight:bold;
+color:#00387D;
+text-decoration:none;
+cursor:pointer;
+}
+
+.caja_noticia p a:hover {
+color:#000000;
+text-decoration:underline;
+}
+
+.caja_noticia h1 {
+margin:0;
+font-family:"Trebuchet MS";
+font-size:16pt;
+color:#623300;
+font-weight:normal;
+text-align:center;
+cursor:default;
+position:relative;
+top:8px;
+}
+
+.h2 {
+margin:0;
+font-family:"Trebuchet MS";
+font-size:13pt;
+color:#623300;
+font-weight:normal;
+text-align:center;
+cursor:default;
+position:relative;
+top:8px;
+}
+
+.link {
+font-family:"Microsoft Sans Serif";
+font-size:0.75em;
+font-weight:bold;
+color:#00387D;
+text-decoration:none;
+letter-spacing:1px;
+}
+
+.link:hover {
+color:#000000;
+}
+
+.por_contenido {
+background:url(/imagenes/por_contenido_bg.gif) repeat-x;
+height:18px;
+line-height:1.7em;
+text-align:center;
+font-family:"Microsoft Sans Serif";
+font-size:0.65em;
+letter-spacing:0.1em;
+font-weight:bold;
+color:#432100;
+margin-left:24px;
+margin-right:24px;
+cursor:default;
+}
+
+.dato {
+color:#000000;
+}
+
+.por_l {
+background:url(/imagenes/por_lr_bg.gif) left no-repeat;
+}
+
+.por_r {
+background:url(/imagenes/por_lr_bg.gif) right no-repeat;
+}

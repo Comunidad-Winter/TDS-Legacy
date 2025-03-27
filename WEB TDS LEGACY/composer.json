@@ -1,0 +1,7 @@
+{
+    "require": {
+        "firebase/php-jwt": "^6.3",
+        "nesbot/carbon": "^2.62",
+        "mercadopago/dx-php": "2.6.1"
+    }
+}

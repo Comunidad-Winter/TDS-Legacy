@@ -1,0 +1,262 @@
+.ranking_bg {
+    background: url(/imagenes/ranking/head.gif) top center no-repeat;
+    height: 174px; 
+}
+
+.elegi_clase {
+    padding-left: 215px;
+    padding-top: 102px;
+    padding-left: 0px
+}
+
+.clases_combate,
+.clases_trabajadoras {
+    font: 700 14px trebuchet ms;
+    color: #c90
+}
+
+#tabla_ranking .primer_puesto {
+    background: url(/imagenes/ranking/primer_puesto_bg.gif) center no-repeat;
+    height: 106px;
+    font-family: trebuchet ms;
+    font-size: 1.3em;
+    font-weight: 700;
+    overflow: clip;
+    text-overflow: clip; 
+    color: #e8dd8e
+}
+
+#tabla_ranking .primer_puesto ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: .69em;
+    text-overflow: clip;
+    padding-top: 2em
+}
+
+#tabla_ranking .primer_puesto li {
+    display: block;
+    float: left;
+    text-align: center;
+    margin-right: .35em;
+}
+
+#tabla_ranking .primer_puesto li.oro {
+    width: 4.55em
+}
+
+#tabla_ranking .primer_puesto li.nick {
+    width: 5.65em;
+    overflow: clip;
+    text-overflow: ellipsis; 
+    max-width: 200px;
+}
+
+#tabla_ranking .primer_puesto li.nick a {
+    text-decoration: none;
+    color: #e8dd8e;
+    overflow: clip;
+    text-overflow: clip;  
+}
+
+#tabla_ranking .primer_puesto li.nick a:hover {
+    text-decoration: underline
+}
+
+#tabla_ranking .primer_puesto li.lvl {
+    width: 2.65em
+}
+
+#tabla_ranking .primer_puesto li.raza {
+    width: 4.4em
+}
+
+#tabla_ranking .primer_puesto li.clan {
+    width: 6.65em
+}
+
+#tabla_ranking .segundo_puesto {
+    background: url(/imagenes/ranking/segundo_puesto_bg.gif) center no-repeat;
+    height: 95px;
+    font-family: trebuchet ms;
+    font-size: 1.2em;
+    color: #e0e0e0
+}
+
+#tabla_ranking .segundo_puesto ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 1.7em;
+    margin-left: 1.8em
+}
+
+#tabla_ranking .segundo_puesto li {
+    display: block;
+    float: left;
+    text-align: center;
+    min-width: 115px;
+    margin-right: .35em
+}
+
+#tabla_ranking .segundo_puesto li.plata {
+    width: 3.88em
+}
+
+#tabla_ranking .segundo_puesto li.nick {
+    width: 6.15em;
+    overflow: clip;
+    text-overflow: ellipsis; 
+    max-width: 200px;
+}
+
+#tabla_ranking .segundo_puesto li.nick a {
+    text-decoration: none;
+    color: #e0e0e0;
+    overflow: clip;
+    text-overflow: ellipsis; 
+    max-width: 200px;
+}
+
+#tabla_ranking .segundo_puesto li.nick a:hover {
+    text-decoration: underline
+}
+
+#tabla_ranking .segundo_puesto li.lvl {
+    width: 2.88em
+}
+
+#tabla_ranking .segundo_puesto li.raza {
+    width: 4.85em
+}
+
+#tabla_ranking .segundo_puesto li.clan {
+    width: 6.5em;
+    white-space: nowrap
+}
+
+#tabla_ranking .tercer_puesto {
+    background: url(/imagenes/ranking/tercer_puesto_bg.gif) center no-repeat;
+    height: 88px;
+    font-family: trebuchet ms;
+    font-size: 1.1em;
+    color: #e29a65
+}
+
+#tabla_ranking .tercer_puesto ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 1.7em;
+    margin-left: 2.6em;
+    
+}
+
+#tabla_ranking .tercer_puesto li {
+    display: block;
+    float: left;
+    text-align: center;
+    margin-right: .35em;
+    overflow: clip;
+    text-overflow: ellipsis; 
+    max-width: 200px;
+}
+
+#tabla_ranking .tercer_puesto li.bronce {
+    width: 3.6em
+}
+
+#tabla_ranking .tercer_puesto li.nick {
+    width: 6.7em
+}
+
+#tabla_ranking .tercer_puesto li.nick a {
+    text-decoration: none;
+    color: #e29a65
+}
+
+#tabla_ranking .tercer_puesto li.nick a:hover {
+    text-decoration: underline
+}
+
+#tabla_ranking .tercer_puesto li.lvl {
+    width: 3.25em
+}
+
+#tabla_ranking .tercer_puesto li.raza {
+    width: 5.3em
+}
+
+#tabla_ranking .tercer_puesto li.clan {
+    width: 6.5em;
+    white-space: nowrap
+}
+
+#tabla_ranking .puesto {
+    background: url(/imagenes/ranking/puesto_bg.gif) center no-repeat;
+    height: 34px;
+    font-family: trebuchet ms;
+    font-size: 1em;
+    font-weight: 700;
+    text-wrap: nowrap;
+    color: #999
+}
+
+#tabla_ranking .puesto ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: .2em;
+    margin-left: 3.6em
+}
+
+#tabla_ranking .puesto li {
+    display: block;
+    float: left;
+    text-align: center;
+    margin-right: .35em;
+    overflow: clip;
+    text-overflow: clip; 
+    max-width: 100px;
+}
+
+#tabla_ranking .puesto li.nro {
+    width: 3.2em
+}
+
+#tabla_ranking .puesto li.nick {
+    width: 7.5em;
+    height: 20px;
+    overflow: hidden;
+    width: 7.5em;
+    overflow: ellipsis;
+    text-overflow: clip; 
+    max-width: 110px;
+    margin-left: 5px;
+}
+
+#tabla_ranking .puesto li.nick a {
+    text-decoration: none;
+    color: #999;
+}
+
+#tabla_ranking .puesto li.nick a:hover {
+    text-decoration: underline
+}
+
+#tabla_ranking .puesto li.lvl {
+    width: 70px;
+}
+
+#tabla_ranking .puesto li.raza {
+    width: 100px;
+    max-width: 80px;
+}
+
+#tabla_ranking .puesto li.clan {
+    width: 100px;
+    padding-left: 6px;
+    max-width: 100px;
+    white-space: nowrap
+}

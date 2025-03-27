@@ -1,0 +1,326 @@
+/* Mini Estadisticas */
+
+.mini_est {
+	padding-bottom:10px;
+	}
+	
+	.mini_est h2 {
+	margin:0;
+	font-family:Georgia;
+	font-size:24px;
+	color:#623300;
+	font-weight:normal;
+	text-align:center;
+	position:relative;
+	top:8px;
+	}
+	
+	.mini_est h3 {
+	margin:0;
+	margin-bottom:20px;
+	font-family:Georgia;
+	font-size:1.2em;
+	color:#333333;
+	font-weight:normal;
+	text-align:center;
+	}
+	
+	.mini_est h4 {
+	margin:0;
+	}
+	
+	.error {
+	color:#FF3300;
+	font-family:"Trebuchet MS";
+	font-size:1.2em;
+	}
+	
+	.contenido {
+	cursor:default;
+	}
+	
+	.borde {
+	height:4px;
+	background:url(/imagenes/mini_estadisticas/borde.gif) repeat-x;
+	position:relative;
+	top:2px;
+	}
+	
+	/***********/
+	/* neutro */
+	#neutro .contenido {
+	line-height:1.7em;
+	text-align:center;
+	font-family:"Trebuchet MS";
+	font-size:0.65em;
+	letter-spacing:0.1em;
+	font-weight:bold;
+	color:#432100;
+	cursor:default;
+	}
+	
+	#neutro .bandera_l {
+	background:url(/imagenes/mini_estadisticas/bandera_tds_izq.png) top left no-repeat;
+	background-position:10px 0px;
+	}
+	
+	#neutro .bandera_r {
+	background:url(/imagenes/mini_estadisticas/bandera_tds_der.png) top right no-repeat;
+	background-position:457px 0px;
+	}
+
+	#neutro h4 {
+		font-size:1.7em;
+		}
+
+	#gm .bandera_l {
+		background:url(/imagenes/mini_estadisticas/bandera_gm_izq.png) top left no-repeat;
+		background-position:10px 0px;
+		}
+		
+	#gm .bandera_r {
+	background:url(/imagenes/mini_estadisticas/bandera_gm_der.png) top right no-repeat;
+	background-position:457px 0px;
+	}
+
+	#gm h4 {
+		font-size:1.7em;
+		}
+	
+	#gm .contenido {
+		line-height:1.7em;
+		text-align:center;
+		font-family:"Trebuchet MS";
+		font-size:0.65em;
+		letter-spacing:0.1em;
+		font-weight:bold;
+	color:#432100;
+		cursor:default;
+		
+		} 
+
+	
+	/***********/
+	/* neutro */
+	#neutro_crimi .contenido {
+	line-height:1.7em;
+	text-align:center;
+	font-family:"Trebuchet MS";
+	font-size:0.65em;
+	letter-spacing:0.1em;
+	font-weight:bold;
+	color:#432100;
+	cursor:default;
+	}
+	
+	#neutro_crimi .bandera_l {
+	background:url(/imagenes/mini_estadisticas/bandera_crimi_izq.png) top left no-repeat;
+	background-position:10px 0px;
+	}
+	
+	#neutro_crimi .bandera_r {
+	background:url(/imagenes/mini_estadisticas/bandera_crimi_der.png) top right no-repeat;
+	background-position:457px 0px;
+	}
+	
+	#neutro_crimi h4 {
+	font-size:1.7em;
+	}
+	
+	/***********/
+	/* armada */
+	
+	#armada .contenido {
+	line-height:1.7em;
+	text-align:center;
+	font-family:"Trebuchet MS";
+	font-size:0.65em;
+	letter-spacing:0.1em;
+	font-weight:bold;
+	color:#432100;
+	cursor:default;
+	}
+	
+	#armada .bandera_l {
+	background:url(/imagenes/mini_estadisticas/bandera_armada_izq.png) top left no-repeat;
+	background-position:10px 0px;
+	}
+	
+	#armada .bandera_r {
+	background:url(/imagenes/mini_estadisticas/bandera_armada_der.png) top right no-repeat;
+	background-position:457px 0px;
+	}
+	
+	#armada h4 {
+	font-size:1em;
+	font-weight:normal;
+	color:#000099;
+	}
+	
+	#armada .nick {
+	font-weight:bold;
+	color:#0033CC;
+	font-size:1.2em;
+	}
+	/******************/
+	
+	/***********/
+	/* caos */
+	
+	#caos .contenido {
+	line-height:1.7em;
+	text-align:center;
+	font-family:"Trebuchet MS";
+	font-size:0.65em;
+	letter-spacing:0.1em;
+	font-weight:bold;
+	color:#432100;
+	cursor:default;
+	}
+	
+	#caos .bandera_l {
+	background:url(/imagenes/mini_estadisticas/bandera_caos_izq.png) top left no-repeat;
+	background-position:10px 0px;
+	}
+	
+	#caos .bandera_r {
+	background:url(/imagenes/mini_estadisticas/bandera_caos_der.png) top right no-repeat;
+	background-position:457px 0px;
+	}
+	
+	#caos h4 {
+	font-size:1em;
+	font-weight:normal;
+	color:#CC0000;
+	}
+	
+	#caos .nick {
+	font-weight:bold;
+	color:#FF0000;
+	font-size:1.2em;
+	}
+	/******************/
+	
+	#tabla_miniest {
+	font-size:1.3em;
+	}
+	
+	#tabla_miniest td {
+	padding:6px;
+	background:url(/imagenes/mini_estadisticas/separacion.gif) repeat-x bottom;
+	}
+	
+	#tabla_miniest .titulo {
+	font-size:0.95em;
+	text-align:right;
+	}
+	
+	#tabla_miniest .img {
+	width:40px;
+	text-align:center;
+	}
+	
+	#tabla_miniest .dato {
+	width:140px;
+	text-align:left;
+	}
+	
+	/*****************/
+	
+	.mini_est .recordatorio {
+	margin:0;
+	margin-top:10px;
+	padding:0;
+	list-style:none;
+	}
+	
+	.mini_est .recordatorio li {
+	text-align:center;
+	font-size:1.1em;
+	}
+	
+	.mini_est .recordatorio li.ra_tit {
+	font-weight:bold;
+	font-size:1.3em;
+	color:#000099;
+	}
+	
+	.mini_est .recordatorio li.rc_tit {
+	font-weight:bold;
+	font-size:1.3em;
+	color:#CC0000;
+	}
+	
+	/******************/
+	
+	.mini_est .form {
+	margin:0;
+	padding:0;
+	}
+	
+	.mini_est fieldset {
+	border:0;
+	margin:0;
+	padding:0;
+	cursor:default;
+	}
+	
+	.mini_est label {
+	font-family:"Microsoft Sans Serif";
+	font-size:0.75em;
+	font-weight:bold;
+	color:#442300;
+	letter-spacing:1px;
+	cursor:default;
+	}
+	
+	.ver {
+	width:80px;
+	border:0;
+	background:url(/imagenes/bg_entrar.gif);
+	font-family:"Microsoft Sans Serif";
+	font-size:0.9em;
+	font-weight:bold;
+	color:#102d02;
+	text-decoration:none;
+	letter-spacing:1px;
+	cursor:pointer;
+	}
+	
+	.ver:hover {
+	color:#000000;
+	cursor:pointer;
+	}
+	
+	.input {
+	width:117px;
+	height:19px;
+	background:url(/imagenes/bg_input.gif) repeat-x;
+	border:#442300 1px solid;
+	font-family:"Microsoft Sans Serif";
+	font-size:1em;
+	font-weight:bold;
+	color:#FFFCEA;
+	letter-spacing:1px;
+	}
+	/*
+		 FILE ARCHIVED ON 08:16:32 Jan 24, 2013 AND RETRIEVED FROM THE
+		 INTERNET ARCHIVE ON 18:29:56 Sep 17, 2022.
+		 JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+	
+		 ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+		 SECTION 108(a)(3)).
+	*/
+	/*
+	playback timings (ms):
+	  captures_list: 530.184
+	  exclusion.robots: 0.148
+	  exclusion.robots.policy: 0.138
+	  cdx.remote: 0.081
+	  esindex: 0.01
+	  LoadShardBlock: 403.785 (3)
+	  PetaboxLoader3.datanode: 415.58 (4)
+	  CDXLines.iter: 12.146 (3)
+	  load_resource: 311.142
+	  PetaboxLoader3.resolve: 253.137
+	*/

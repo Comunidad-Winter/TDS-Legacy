@@ -1,0 +1,15 @@
+25/8/2024 15:43:56 - Batt -DropT- 98 Equipo invernal (H-E-EO/H) Pos:59-42-77
+25/8/2024 15:43:56 - Batt -DropT- 2 Túnica de Game Master Pos:59-43-77
+25/8/2024 15:43:56 - Batt -DropT- 88 Báculo Engarzado Pos:59-44-77
+25/8/2024 15:43:56 - Batt -DropT- 88 Sombrero de Mago Pos:59-42-78
+25/8/2024 15:43:56 - Batt -DropT- 1 Armadura De las sombras Pos:59-44-78
+25/8/2024 15:43:56 - Batt -DropT- 1 Espada Especial Pos:59-43-79
+25/8/2024 15:43:56 - Batt -DropT- 1 Casco de plata Pos:59-44-79
+25/8/2024 15:44:03 - Betatester -GetObj- 1 Armadura De las sombras Pos:59-44-78
+25/8/2024 15:44:03 - Betatester -GetObj- 88 Báculo Engarzado Pos:59-44-77
+25/8/2024 15:44:03 - Betatester -GetObj- 2 Túnica de Game Master Pos:59-43-77
+25/8/2024 15:44:03 - Betatester -GetObj- 1 Espada Especial Pos:59-43-79
+25/8/2024 15:44:04 - Betatester -GetObj- 88 Sombrero de Mago Pos:59-42-78
+25/8/2024 15:44:04 - Betatester -GetObj- 98 Equipo invernal (H-E-EO/H) Pos:59-42-77
+25/8/2024 15:44:05 - Betatester -GetObj- 1 Casco de plata Pos:59-44-79
+25/8/2024 16:29:29 - Battata -GetObj- 4 Monedas de oro Pos:168-74-49

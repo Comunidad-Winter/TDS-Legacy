@@ -1,0 +1,174 @@
+#panel-premium {
+    font-size: 9pt;
+    font-family: trebuchet ms;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+#panel-premium .pjs {
+    margin: 5px;
+    border: 0;
+    color: #fff0c3;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background: url(cuentas/imagenes/mispj.jpg) left top no-repeat
+}
+
+#panel-premium .pjs a {
+    margin-left: 5px;
+    padding-left: 25px;
+    height: 25px !important;
+    display: block;
+    font-size: 18px;
+    text-decoration: none
+}
+
+#panel-premium .pjs a.eo {
+    background: url(/imagenes/calculador/eo.gif) left top no-repeat
+}
+
+#panel-premium .pjs a.h {
+    background: url(/imagenes/calculador/h.gif) left top no-repeat
+}
+
+#panel-premium .pjs a.en {
+    background: url(/imagenes/calculador/en.gif) left top no-repeat
+}
+
+#panel-premium .pjs a.e {
+    background: url(/imagenes/calculador/e.gif) left top no-repeat
+}
+
+#panel-premium .pjs a.g {
+    background: url(/imagenes/calculador/g.gif) left top no-repeat
+}
+
+#panel-premium .pjs:hover a.img {
+    background-position: left bottom !important
+}
+
+#panel-premium {
+    font-size: 9pt;
+    font-family: trebuchet ms;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+#panel-premium .pjsf a {
+    margin-left: 5px;
+    padding-left: 25px;
+    height: 25px !important;
+    display: block;
+    font-size: 18px;
+    text-decoration: none
+}
+
+#panel-premium .pjsf a.eo {
+    background: url(/imagenes/calculador/eo.gif) left top no-repeat
+}
+
+#panel-premium .pjsf a.h {
+    background: url(/imagenes/calculador/h.gif) left top no-repeat
+}
+
+#panel-premium .pjsf a.en {
+    background: url(/imagenes/calculador/en.gif) left top no-repeat
+}
+
+#panel-premium .pjsf a.e {
+    background: url(/imagenes/calculador/e.gif) left top no-repeat
+}
+
+#panel-premium .pjsf a.g {
+    background: url(/imagenes/calculador/g.gif) left top no-repeat
+}
+
+#panel-premium .pjsf a:hover {
+    text-decoration: underline
+}
+
+#panel-premium .pjsf:hover a.img {
+    background-position: left bottom !important
+}
+
+#alerta_critico {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    text-align: justify;
+    border: red 4px solid;
+    margin-top: 10px;
+    background: #900
+}
+
+#alerta_critico p {
+    padding: 10px;
+    display: block;
+    text-align: justify;
+    margin: 0;
+    font-family: "microsoft sans serif";
+    font-size: 12px;
+    font-weight: 700;
+    color: #ccc;
+    background: 0
+}
+
+#alerta_critico img {
+    float: left;
+    margin: 10px
+}
+
+#alerta_normal {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    text-align: justify;
+    border: #039 4px solid;
+    margin-top: 10px;
+    background: #06c
+}
+
+#alerta_normal p {
+    padding: 10px;
+    display: block;
+    text-align: justify;
+    margin: 0;
+    font-family: "microsoft sans serif";
+    font-size: 12px;
+    font-weight: 700;
+    color: #cc0;
+    background: 0
+}
+
+#alerta_normal img {
+    float: left;
+    margin: 10px
+}
+
+.cabeza {
+
+	height: 22px; 
+}
+
+.cEo {
+    background: url(/imagenes/calculador/eo.gif) left top no-repeat
+}
+
+.cHumano {
+    background: url(/imagenes/calculador/h.gif) left top no-repeat
+}
+
+.cElfo {
+    background: url(/imagenes/calculador/e.gif) left top no-repeat
+}
+
+.cGnomo {
+    background: url(/imagenes/calculador/g.gif) left top no-repeat
+}
+
+.cEnano {
+    background: url(/imagenes/calculador/en.gif) left top no-repeat
+}
+
+.cabeza:hover{
+    background-position: left bottom;
+}

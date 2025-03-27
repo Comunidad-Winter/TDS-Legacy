@@ -1,0 +1,69 @@
+html,body{margin:0;padding:0}body{text-align:center;background:url(/imagenes/bg_stone.gif) #000 top;min-width:700px}a:active,a:focus{outline:none}body#seccion_inicio a#inicio,body#seccion_reglamento a#reglamento,body#seccion_manual a#manual,body#seccion_soporte a#soporte,body#seccion_staff a#staff,body#seccion_ranking a#ranking,body#seccion_top50 a#top50,body#seccion_retos a#retos,body#seccion_premium a#premium{color:#fffee6;text-decoration:underline}#bg_top{background:url(/imagenes/bg_stone_top.gif) top repeat-x}#pagina{margin:0 auto;width:700px;background:url(/imagenes/bg_pagina.gif) center top repeat-y;cursor:default}.bottom{height:74px}#main{margin:0 auto;width:563px;padding-right:6px}#left{margin-top:-10px;float:left;width:150px}#right{margin-top:10px;float:right;width:403px}#contenido{margin-top:10px;width:100%}.clear{clear:both}acronym{border:0;cursor:default}a acronym{cursor:pointer}#header{display:block;height:197px;width:700px}#menu{height:63px;width:700px;background:url(/imagenes/bg_menu.gif) no-repeat}#menu .arriba{padding-left:90px;padding-bottom:10px}#menu .abajo{padding-left:90px}#menu ul{padding:0;margin:0;list-style:none}#menu li{padding:5px;padding-bottom:7px;float:left;padding-right:20px;background:url(/imagenes/separador_link.gif) right center no-repeat}#menu span{display:none}#menu a{font-family:Verdana;font-size:.95em;font-weight:700;text-transform:capitalize;color:#ccc;text-decoration:none;padding:5px;cursor:pointer}#menu a:hover{color:#fff}#menu li.ultimo{background-image:none}#menu .jugadores_online{font-family:trebuchet ms;font-size:.9em;font-weight:700;color:#ffc000}.titulo_seccion{background:url(/imagenes/bg_titulo_seccion.gif) no-repeat;height:41px}.titulo_seccion h1{padding:0;margin:0;font-family:trebuchet ms;color:#ffac00;font-weight:700;text-align:right;font-size:1em;padding-right:100px;text-align:right;padding-top:5px;white-space:nowrap}.titulo_seccion h1 a{font-family:trebuchet ms;color:#ffac00;text-decoration:none;font-size:1em}.titulo_seccion .ultima_actualizacion{font-family:Verdana,Arial,Helvetica,sans-serif;font-size:.6em;color:#c9b68f;font-weight:400;text-align:right;position:relative;top:-5px;right:4px}.link_volver{text-align:center}.link_volver a{display:block;text-align:center;background:url(/imagenes/bg_volver.gif) center no-repeat;font-family:"microsoft sans serif";font-size:.75em;font-weight:700;color:#102d02;text-decoration:none;letter-spacing:1px;cursor:pointer}.link_volver a:hover{color:#333}#box_img{text-align:center;vertical-align:middle}#box_img .noticias_img_box{float:center;height:150px;padding:4px;width:150px}#box_img .noticias_img_box img{background:#000 url(cargando.gif) no-repeat scroll center center;cursor:pointer;display:block;height:150px;width:150px;border:0}
+
+
+		:root {
+	--background: #1d2d50;
+	--accent: #fcdab7;
+	--accent2: #1e5f74;
+	--color: #fefefe;
+	--dull: #b8b8b8;
+	--error: #e74c3c;
+	--highlight: rgba(255,255,255,.05);
+	}
+	.errcontainer {
+		font-size: 14px;
+		opacity: 1;
+		transition: opacity .3s;
+		padding-top: 5px;
+		text-align: center;
+	}
+	.err {
+		margin: 5px 0;
+		color: var(--error);
+		
+		text-shadow: 0px 4px 4px #282828;
+	}
+	.err ul {
+		list-style-type: none;
+		margin: 0;
+		padding-inline-start: 2em;	color: #333;
+		-webkit-text-stroke: 1px #282828;
+		text-shadow: 0px 4px 4px #282828;	
+	}
+
+	form a {
+		position: relative;
+		margin: 0;
+		line-height: 1.4em;
+		display: inline-block;
+		color: var(--dull);
+		text-decoration: none;
+		transition: color .3s;
+	}
+	.errorcontainer a {
+		display: inline;
+		line-height: normal;
+		text-decoration: underline;
+		color: inherit;
+	}
+	form a:before {
+		content: "";
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		height: 1px;
+		background: var(--dull);
+		width: 0px;
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
+		transition: width .5s;
+	}
+	form a:hover:before {
+		width: 100%;
+	}
+	form a:hover {
+		color: var(--color);
+	}

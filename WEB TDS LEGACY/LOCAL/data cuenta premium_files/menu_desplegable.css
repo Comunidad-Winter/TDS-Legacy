@@ -1,0 +1,105 @@
+.menu_pais {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	display:block;
+	line-height:29px;
+	width:100%;
+}
+
+.menu_pais a {
+	color:#FFFFFF;
+	display:block;
+	line-height:29px;
+	padding-left:30px;
+	text-decoration:none;
+	list-style:none;
+}
+
+.seleccionado {
+	background:url(/web/20111007123616im_/http://tierrasdelsur.cc/imagenes/menu_premium/flechita_on.jpg) no-repeat center right;
+	border:#666666 thin solid;
+	width:160px;
+	height:28px;
+	display:block;
+	background-color:#000000;
+}
+
+.seleccionado:hover {
+	background:url(/web/20111007123616im_/http://tierrasdelsur.cc/imagenes/menu_premium/flechita.jpg) no-repeat center right;
+	background-color:#000000;	
+	border:#d39717 thin solid;
+}
+
+.seleccionado a {
+	width:130px;
+	height:28px;
+	background: no-repeat left center;
+}
+
+.seleccionado a:hover {
+	color:#d39717;	
+
+}
+
+.no_seleccionado {
+	position:absolute;
+}
+
+.no_seleccionado a {
+	width:120px;
+	display:list-item;
+	background: no-repeat left center;
+	background-color:#000000;
+	border-bottom:#666666 solid;
+	border-bottom-width:1px;
+}
+
+.no_seleccionado a:hover {
+	border-bottom:#d39717 solid;
+	color:#d39717;
+	border-bottom-width:1px;
+}
+
+.menu_pais a.ARG {
+	background-image:url(/web/20111007123616im_/http://tierrasdelsur.cc/imagenes/menu_premium/argalto.jpg);
+}
+
+.menu_pais a.MEX {
+	background-image:url(/web/20111007123616im_/http://tierrasdelsur.cc/imagenes/menu_premium/mexico.jpg);
+}
+
+.menu_pais a.GBR {
+	background-image:url(/web/20111007123616im_/http://tierrasdelsur.cc/imagenes/menu_premium/ing.jpg);
+}
+
+.menu_pais a.ESP {
+	background-image:url(/web/20111007123616im_/http://tierrasdelsur.cc/imagenes/menu_premium/spain.jpg);
+}
+
+.menu_pais a.NED {
+	background-image:url(/web/20111007123616im_/http://tierrasdelsur.cc/imagenes/menu_premium/hol.jpg);
+}
+
+.menu_pais a.PAY {
+	background-image:url(/web/20111007123616im_/http://tierrasdelsur.cc/imagenes/menu_premium/int.jpg);
+}
+/*
+     FILE ARCHIVED ON 12:36:16 Oct 07, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:08:46 Oct 25, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 6580.347
+  exclusion.robots: 0.094
+  exclusion.robots.policy: 0.082
+  cdx.remote: 0.07
+  esindex: 0.01
+  LoadShardBlock: 6548.825 (3)
+  PetaboxLoader3.datanode: 6177.067 (4)
+  load_resource: 117.482
+  PetaboxLoader3.resolve: 51.89
+*/

@@ -1,0 +1,30 @@
+#animation_container,#_preload_div_{position:absolute;margin:auto;left:0;right:0}
+
+
+.medalla { background:url(/imagenes/cuentas/medalla.gif) top left no-repeat; }
+.monedas { background:url(/imagenes/cuentas/monedas.gif) top left no-repeat; }
+.estrella { background:url(/imagenes/cuentas/estrella.gif) top left no-repeat; }
+.candado { background:url(/imagenes/cuentas/candado.gif) top left no-repeat; }
+.imagen { background:url(/imagenes/cuentas/imagen.gif) top left no-repeat; }
+.coment { background:url(/imagenes/cuentas/coment.gif) top left no-repeat; }
+.carita { background:url(/imagenes/cuentas/carita.gif) top left no-repeat; }
+.transferencia { background:url(/imagenes/cuentas/transferencia.gif) top left no-repeat; }
+
+
+.pInter { background:url(/imagenes/cuentas/pInter.gif) top left no-repeat; }
+.aInter { background:url(/imagenes/cuentas/aInter.gif) top left no-repeat; }
+.fInter { background:url(/imagenes/cuentas/fInter.gif) top left no-repeat; }
+.rCompra { background:url(/imagenes/cuentas/rCompra.gif) top left no-repeat; }
+.rInter { background:url(/imagenes/cuentas/rInter.gif) top left no-repeat; }
+
+
+.anunInfo { background:url(/imagenes/cuentas/anuncioInfo.gif) top left no-repeat; }
+.anunAlert { background:url(/imagenes/cuentas/anunAlert.gif) top left no-repeat; }
+.anunSAlert { background:url(/imagenes/cuentas/anunSAlert.gif) top left no-repeat; }
+.anunCrit { background:url(/imagenes/cuentas/anunCrit.gif) top left no-repeat; }
+
+.tdsf { background:url(/imagenes/cuentas/tdsf.gif) top left no-repeat; }
+.tdsf-mispjs { background:url(/imagenes/cuentas/tdsf-mispjs.gif) top left no-repeat; }
+.tdsf-descargar { background:url(/imagenes/cuentas/tdsf-descargar.gif) top left no-repeat; }
+.tdsf-est { background:url(/imagenes/cuentas/tdsf-est.gif) top left no-repeat; }
+.tdsf-transferir { background:url(/imagenes/cuentas/tdsf-transferir.gif) top left no-repeat; }

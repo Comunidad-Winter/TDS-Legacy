@@ -1,0 +1,162 @@
+#calculador {
+    font-family: trebuchet ms;
+    /*padding-top: 20px*/
+}
+
+#calculador form {
+    margin: 0;
+    padding: 0
+}
+
+#calculador h2 {
+    color: #edba1e;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+#calculador h3 {
+    color: #fed968;
+    font-size: 16px;
+    text-align: center
+}
+
+#calculador h4 {
+    color: #fed968;
+    font-size: 14px;
+    font-weight: 400
+}
+
+#calculador #resultados p {
+    color: #ccc;
+    font-size: 14px
+}
+
+#calculador #resultados .nro {
+    color: #ccc;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 700
+}
+
+#calculador #resultados .msg {
+    color: #fed968;
+    font-size: 14px
+}
+
+#calculador .contenedor {
+    padding-left: 60px;
+    background: url(/imagenes/calculador/lineaH.gif) repeat-x 0 45px
+}
+
+#calculador .elegiRaza,
+#calculador .elegiClase {
+    float: left;
+    text-align: left
+}
+
+#calculador .elegiRaza {
+    width: 170px
+}
+
+#calculador .elegiRaza p {
+    margin: 5px 0
+}
+
+#calculador .elegiRaza a {
+    color: #a79d80;
+    text-decoration: none;
+    display: block;
+    padding-left: 25px;
+    height: 25px
+}
+
+#calculador .elegiRaza .cHumano {
+    background: url(/imagenes/calculador/h.gif) left top no-repeat
+}
+
+#calculador .elegiRaza .cElfo {
+    background: url(/imagenes/calculador/e.gif) left top no-repeat
+}
+
+#calculador .elegiRaza .cEo {
+    background: url(/imagenes/calculador/eo.gif) left top no-repeat
+}
+
+#calculador .elegiRaza .cEnano {
+    background: url(/imagenes/calculador/en.gif) left top no-repeat
+}
+
+#calculador .elegiRaza .cGnomo {
+    background: url(/imagenes/calculador/g.gif) left top no-repeat
+}
+
+#calculador .elegiRaza a:hover,
+#calculador .elegiRaza .On {
+    background-position: left bottom;
+    color: #fff0c3;
+    font-weight: 700
+}
+
+#calculador .elegiClase p {
+    margin: 5px 0
+}
+
+#calculador .elegiClase label {
+    color: #fff0c3;
+    cursor: pointer
+}
+
+#calculador .elegiClase .Lon {
+    font-weight: 700
+}
+
+#calculador .elegiClase .izq {
+    float: left;
+    margin-right: 40px
+}
+
+#calculador .submit {
+    padding-top: 10px;
+    padding-left: 60px
+}
+
+#calculador .submit p {
+    float: left;
+    margin-right: 10px
+}
+
+#calculador .submit label {
+    color: #fed968;
+    cursor: pointer;
+    text-align: right
+}
+
+#calculador .submit .input {
+    border: 0;
+    font-weight: 700;
+    color: #fff;
+    background: url(/imagenes/calculador/input-bg.gif) no-repeat;
+    width: 72px;
+    height: 28px;
+    padding-top: 5px;
+    padding-left: 3px;
+    vertical-align: middle
+}
+
+#calculador .botonCalcu {
+    background: url(/imagenes/calculador/btn-bg.gif) left top no-repeat;
+    color: #d3b672;
+    font-weight: 700;
+    display: block;
+    width: 89px;
+    height: 32px;
+    line-height: 32px;
+    text-decoration: none;
+    font-size: 14px
+}
+
+#calculador .botonCalcu:hover {
+    color: #ffc000;
+    background-position: left bottom
+}

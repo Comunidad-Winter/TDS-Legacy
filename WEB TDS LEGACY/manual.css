@@ -1,0 +1,206 @@
+.contenido_manual h2 {
+margin:0;
+padding:0;
+padding-top:8px;
+text-align:center;
+background:url(/imagenes/manual/manual_para_jugadores.gif) center no-repeat;
+height:117px;
+}
+
+.contenido_manual h2 span {
+	display:none;
+}
+
+/*
+	cajas de seccion
+*/
+
+.caja_seccion_manual {
+	margin-right:15px;
+	float:left;
+}
+
+.bg_seccion_manual {
+	background:url(/imagenes/manual/bg_titulo_seccion.gif) repeat-x;
+	height:27px;
+	display:block;
+	width:150px;
+}
+
+.bg_seccion_l {
+	background:url(/imagenes/manual/bg_titulo_seccion_l.gif) left no-repeat;
+	display:block;
+	height:27px;
+}
+
+.bg_seccion_r {
+	background:url(/imagenes/manual/bg_titulo_seccion_r.gif) right no-repeat;
+	padding-right:6px;
+	padding-left:6px;
+	height:27px;
+	display:block;
+	text-align:center;
+}
+
+.link_on a,
+link_on a:hover {
+	color:#FF9900;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.8em;
+	line-height:27px;
+	text-decoration:underline;
+	font-weight:bold;
+	display:block;
+	width:100%;
+	background:url(/imagenes/manual/flecha_on.gif) 5px 9px no-repeat;
+	cursor:pointer;
+}
+
+.link_off a {
+	color:#e2cd9a;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.8em;
+	line-height:27px;
+	text-decoration:none;
+	font-weight:bold;
+	display:block;
+	width:100%;
+	background:url(/imagenes/manual/flecha_off.gif) 5px 9px no-repeat;
+}
+
+.link_off a:hover {
+	color:#f1b536;
+}
+
+/*.flecha_on {
+	background:url(/imagenes/manual/flecha_on.gif) 5px 9px no-repeat;
+}
+
+.flecha_off {
+	background:url(/imagenes/manual/flecha_off.gif) 5px 9px no-repeat;
+}*/
+
+.bg_seccion_menu {
+	background:url(/imagenes/manual/bg_seccion_menu.gif) bottom center no-repeat;
+	color:#341003;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	font-weight:bold;
+	height:1%;
+}
+
+.bg_seccion_menu_top {
+	background:url(/imagenes/manual/bg_seccion_menu_top.gif) repeat-x;
+	height:3px;
+	margin-left:32px;
+	margin-right:32px;
+}
+
+.bg_seccion_menu ul {
+	margin:0;
+	padding:0;
+	list-style-type:disc;
+	margin-left:45px;
+	/*list-style:none;*/
+	text-align:left;
+	padding-bottom:10px;
+	width: 100%; /* DOS COLUMNAS */
+}
+
+.bg_seccion_menu li {
+	margin:5px 0;
+	float: left; /* DOS COLUMNAS */
+  	width: 45%; /* DOS COLUMNAS */
+}
+
+.bg_seccion_menu li a {
+	color:#341003;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+	outline:none;
+}
+
+.bg_seccion_menu li a:hover {
+	color:#000;
+	text-decoration:underline;
+}
+
+.grupo_secciones {
+	padding-left:40px;
+}
+
+.manual p {
+	color:#FFFBDF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:justify;
+}
+
+.manual li {
+	color:#FFFBDF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:justify;
+}
+
+.manual h1 {
+	color:#E7CD76;
+	font-family:"Trebuchet MS";
+	font-size:20px;
+}
+
+.manual h2 {
+	color:#F2E4B7;
+	font-family:"Trebuchet MS";
+	font-size:14px;
+}
+
+.manual a {
+	color:#FFEA9F;
+}
+
+.manual a:hover {
+	text-decoration:none;
+}
+
+.manual span {
+	color:#F2E4B7;
+	font-family:"Trebuchet MS";
+	font-size:14px;
+}
+
+/*.manual table {
+border-width:thin;
+border-color:#999999;
+/*border:dashed;*/
+/*border-collapse: collapse ;
+}
+
+.manual td {
+	color:#F2E4B7;
+	font-family:"Trebuchet MS";
+	border-collapse:collapse;
+	border-spacing:inherit;
+	border-bottom-width:0px;
+	font-size:14px;
+	border-color:#999999;
+/*	border:dashed;*/
+/*	border-width:thin;
+}*/
+
+.manual td {
+border-collapse:collapse;
+font-size:14px;
+color:#F2E4B7;
+font-family:"Trebuchet MS";
+}
+
+.tabla_datos,
+.tabla_datos td {
+border: #999999 1px dashed;
+border-collapse:collapse;
+font-size:14px;
+color:#F2E4B7;
+font-family:"Trebuchet MS";
+}

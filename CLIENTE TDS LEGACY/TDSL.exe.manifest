@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+    <assemblyIdentity name="TDSLegacy" processorArchitecture="X86" type="win32" version="1.1.0.0" />
+    <description>TDS Legacy</description>
+    <file name="Aurora.Network.dll">
+        <typelib tlbid="{88D89F7C-BB59-4F13-9850-93CBD874039D}" version="1.5" flags="hasdiskimage" helpdir="" />
+        <comClass clsid="{9BE50AF2-385F-4C56-9826-65C320451642}" tlbid="{88D89F7C-BB59-4F13-9850-93CBD874039D}" progid="Reader.Reader.1" threadingModel="apartment">
+            <progid>Reader.Reader</progid>
+        </comClass>
+        <comClass clsid="{25DEA4F0-4C5B-4674-B357-2C6FFE8ABF46}" tlbid="{88D89F7C-BB59-4F13-9850-93CBD874039D}" progid="Writer.Writer.1" threadingModel="apartment">
+            <progid>Writer.Writer</progid>
+        </comClass>
+        <comClass clsid="{07CC11E3-D300-4CD4-9EB0-C4EB4D63865D}" tlbid="{88D89F7C-BB59-4F13-9850-93CBD874039D}" progid="Client.Client.1" threadingModel="apartment">
+            <progid>Client.Client</progid>
+        </comClass>
+        <comClass clsid="{ACF5D638-7DDD-443D-B9B4-E5DC3C01BB4C}" tlbid="{88D89F7C-BB59-4F13-9850-93CBD874039D}" progid="Group.Group.1" threadingModel="apartment">
+            <progid>Group.Group</progid>
+        </comClass>
+        <comClass clsid="{AC398261-6275-4797-950A-5B914DDB2130}" tlbid="{88D89F7C-BB59-4F13-9850-93CBD874039D}" progid="Server.Server.1" threadingModel="apartment">
+            <progid>Server.Server</progid>
+        </comClass>
+    </file>
+    <file name="MSINET.OCX">
+        <typelib tlbid="{48E59290-9880-11CF-9754-00AA00C00908}" version="1.0" flags="control,hasdiskimage" helpdir="" />
+        <comClass clsid="{48E59293-9880-11CF-9754-00AA00C00908}" tlbid="{48E59290-9880-11CF-9754-00AA00C00908}" progid="InetCtls.Inet.1" threadingModel="Apartment" miscStatus="" miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,invisibleatruntime,setclientsitefirst">
+            <progid>InetCtls.Inet</progid>
+        </comClass>
+        <comClass clsid="{E2D211D5-11E4-4D9E-B6DB-1E902C851A49}" tlbid="{48E59290-9880-11CF-9754-00AA00C00908}" threadingModel="Apartment" miscStatus="" miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,invisibleatruntime,setclientsitefirst" />
+    </file>
+    <file name="RICHTX32.OCX">
+        <typelib tlbid="{3B7C8863-D78F-101B-B9B5-04021C009402}" version="1.2" flags="control,hasdiskimage" helpdir="" />
+        <comClass clsid="{3B7C8860-D78F-101B-B9B5-04021C009402}" tlbid="{3B7C8863-D78F-101B-B9B5-04021C009402}" progid="RICHTEXT.RichtextCtrl.1" threadingModel="Apartment" miscStatus="" miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst">
+            <progid>RICHTEXT.RichtextCtrl</progid>
+        </comClass>
+        <comClass clsid="{894BA3A3-3CA3-402F-B4FE-CD08337E9535}" tlbid="{3B7C8863-D78F-101B-B9B5-04021C009402}" threadingModel="Apartment" miscStatus="" miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst" />
+    </file>
+    <file name="dx8vb.dll">
+        <typelib tlbid="{E1211242-8E94-11D1-8808-00C04FC2C603}" version="1.0" flags="hasdiskimage" helpdir="" />
+        <comClass clsid="{58356C5D-0BFD-48ED-93C5-F4520B6233DE}" tlbid="{E1211242-8E94-11D1-8808-00C04FC2C603}" progid="DIRECT.D3DX8.0" threadingModel="both" />
+        <comClass clsid="{E7FF1300-96A5-11D3-AC85-00C04FC2C602}" tlbid="{E1211242-8E94-11D1-8808-00C04FC2C603}" progid="DIRECT.DirectX8.0" threadingModel="both" />
+    </file>
+    <file name="MSSTDFMT.DLL">
+        <typelib tlbid="{6B263850-900B-11D0-9484-00A0C91110ED}" version="1.0" flags="hasdiskimage" helpdir="" />
+        <comClass clsid="{2B11E9B0-9F09-11D0-9484-00A0C91110ED}" tlbid="{6B263850-900B-11D0-9484-00A0C91110ED}" progid="MSSTDFMT.StdDataValue.1" threadingModel="Apartment">
+            <progid>MSSTDFMT.StdDataValue</progid>
+        </comClass>
+        <comClass clsid="{1EAC2F2A-251F-4BA8-8617-99A8DD715453}" tlbid="{6B263850-900B-11D0-9484-00A0C91110ED}" threadingModel="Apartment" />
+        <comClass clsid="{6D835690-900B-11D0-9484-00A0C91110ED}" tlbid="{6B263850-900B-11D0-9484-00A0C91110ED}" progid="MSSTDFMT.StdDataFormat.1" threadingModel="Apartment">
+            <progid>MSSTDFMT.StdDataFormat</progid>
+        </comClass>
+        <comClass clsid="{7E96FC67-468E-4E70-B246-D42078DD2361}" tlbid="{6B263850-900B-11D0-9484-00A0C91110ED}" threadingModel="Apartment" />
+        <comClass clsid="{99FF4677-FFC3-11D0-BD02-00C04FC2FB86}" tlbid="{6B263850-900B-11D0-9484-00A0C91110ED}" progid="MSSTDFMT.StdDataFormats.1" threadingModel="Apartment">
+            <progid>MSSTDFMT.StdDataFormats</progid>
+        </comClass>
+        <comClass clsid="{D606EEC9-8368-4F10-88DB-BF5563EC36F6}" tlbid="{6B263850-900B-11D0-9484-00A0C91110ED}" threadingModel="Apartment" />
+    </file>
+    <file name="msvbvm60.dll">
+        <typelib tlbid="{000204EF-0000-0000-C000-000000000046}" version="6.0" flags="hasdiskimage" helpdir="" />
+    </file>
+</assembly>

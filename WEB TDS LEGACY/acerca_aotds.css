@@ -1,0 +1,21 @@
+/* Acerca TDS */
+
+.acerca_aotds {
+padding:1em;
+}
+
+.acerca_aotds p {
+color:#FFF9E1;
+font-family:"Trebuchet MS";
+text-align:justify;
+}
+
+.acerca_aotds a {
+font-family:"Trebuchet MS";
+text-decoration:none;
+color:#B3D2DF;
+}
+
+.acerca_aotds a:hover {
+color:#FFFFFF;
+}

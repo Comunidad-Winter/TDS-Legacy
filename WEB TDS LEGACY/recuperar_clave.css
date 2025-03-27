@@ -1,0 +1,60 @@
+/* Recuperar Clave */
+
+.recuperar_clave {
+padding:0 5px 5px 0;
+cursor:default;
+}
+
+.recuperar_clave h1 {
+margin:0;
+font-family:Georgia;
+font-size:24px;
+color:#623300;
+font-weight:normal;
+text-align:center;
+position:relative;
+top:8px;
+}
+
+.recuperar_clave h2 {
+margin:0;
+font-family:Georgia;
+font-size:1.2em;
+color:#333333;
+font-weight:normal;
+text-align:center;
+top:8px;
+}
+
+.recuperar_clave h3 {
+margin:0;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:0.95em;
+color:#000000;
+font-weight:bold;
+text-align:left;
+}
+
+.recuperar_clave h4 {
+margin:0;
+}
+
+.recuperar_clave p {
+margin:0;
+font-family:"Microsoft Sans Serif";
+font-size:0.75em;
+font-weight:bold;
+color:#442300;
+text-align:center;
+cursor:text;
+}
+
+.recuperar_clave .contenido {
+padding:20px;
+}
+
+.error {
+color:#FF3300;
+font-family:"Trebuchet MS";
+font-size:1.2em;
+}

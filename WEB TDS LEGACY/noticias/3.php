@@ -1,0 +1,4 @@
+<div class="titulo_seccion"><h1>Changelog Web 0.3</h1></div><div id="main"><div id="contenido"><div class="caja_margen"><div class="caja"><div class="caja_shadow_t"><div class="caja_shadow_b"><div class="caja_l"><div class="caja_r"><div class="caja_t"><div class="caja_b"><div class="caja_noticia"><h2>Changelog Web 0.3</h2><p><u>Changelog Web 0.3:</u><br>
+*Ranking de cada clase<br>
+*Ranking top 50<br>
+*Ranking top 9 en Retos!<br></p><div class="por_l"><div class="por_r"><div class="por_contenido"> <span class="dato">Fecha: 2022-12-24 20-09-27</span> - Por: <span class="dato">Cuicui</span></div></div></div></div></div></div></div></div></div></div></div></div>

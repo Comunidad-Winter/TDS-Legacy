@@ -1,0 +1,535 @@
+#cuentasPremium { text-align:left; }
+
+#cuentasPremium .campos {
+	float:left;
+	padding-left:10px;
+}
+
+#cuentasPremium .terminar {
+	padding-left:10px;
+	color:#fff4dc;
+	font-size:12px;
+}
+
+#cuentasPremium .terminar label {
+	float:left;
+	display:block;
+	width:150px;
+	margin:3px 15px 0px 0px;
+	text-align:right;
+	cursor:pointer;
+	color:#fff4dc;
+	font-size:12px;
+}
+
+#cuentasPremium .avisos {
+	float:right;
+	padding-left:5px;
+	display:none;
+}
+
+#cuentasPremium .avisos p { width:135px; }
+
+#cuentasPremium fieldset {
+	border:0; margin:0; padding:0;
+	margin-bottom:10px;
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/linea.gif) bottom repeat-x;
+	padding-bottom:20px;
+}
+
+#cuentasPremium p {
+	color:#fff4dc;
+	font-size:12px;
+	margin-top:20px;
+}
+
+#cuentasPremium .campos label {
+	float:left;
+	display:block;
+	width:150px;
+	margin:3px 15px 0px 0px;
+	text-align:right;
+	cursor:pointer;
+	color:#fff4dc;
+	font-size:12px;
+}
+
+#cuentasPremium .input {
+	display:block;
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/input_bg.gif) left top no-repeat;
+	color:white;
+	width:225px;
+	height:25px;
+	padding:0px 5px 0px 5px;
+	float:left;
+	margin-bottom:20px;
+}
+
+#cuentasPremium  .textarea{
+	display:block;
+	background:transparent url(/web/20110823153222im_/http://tierrasdelsur.cc/cuentas/imagenes/text_bg.gif) left top no-repeat;
+	width:231px;
+	height:102px;
+	padding:0px 5px 0px 5px;
+	float:left;
+	margin-bottom:5px;
+	color:white;
+	font-size:10pt;
+}
+
+#cuentasPremium .textarea textarea{
+	width:220px;
+	height:94px;
+	border:none;
+	background:transparent;
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding-top:3px;
+	overflow:auto;
+}
+
+#cuentasPremium  .select{
+	display:block;
+	background:transparent url(/web/20110823153222im_/http://tierrasdelsur.cc/cuentas/imagenes/text_bg.gif) left top no-repeat;
+	width:231px;
+	height:102px;
+	padding:5px 5px 5px 5px;
+	float:left;
+	margin-bottom:5px;
+	color:white;
+	font-size:8pt;
+}
+#cuentasPremium .select select option{
+	background:#262626;
+}
+#cuentasPremium .select select{
+	font-size:8pt;
+	width:220px;
+	height:94px;
+	border:1px solid #262626;
+	background:transparent;
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	padding-top:3px;
+	overflow:auto;
+	scrollbar-arrow-color:#cccccc;
+	scrollbar-track-color:#101010;
+	scrollbar-shadow-color:#1c1c1c;
+	scrollbar-face-color:#262626;
+	scrollbar-highlight-color:#cccccc;
+	scrollbar-darkshadow-color:#000000;
+	scrollbar-3dlight-color:#1c1c1c;
+}
+
+#cuentasPremium .input input {
+	width:220px;
+	height:17px;
+	border:none;
+	background:transparent;
+	color:#FFFFFF;
+	font-weight:bold;
+	padding-top:3px;
+}
+
+#cuentasPremium .input-chico {
+	display:block;
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/input_chico_bg.gif) left top no-repeat;
+	width:54px;
+	height:25px;
+	padding:0px 5px 0px 5px;
+	float:left;
+	margin-bottom:20px;
+}
+
+#cuentasPremium .input-chico input {
+	width:50px;
+	height:17px;
+	border:none;
+	background:transparent;
+	color:#FFFFFF;
+	font-weight:bold;
+	padding-top:3px;
+}
+
+#cuentasPremium .err .input { background-position:bottom; }
+
+#cuentasPremium .err .input input {	color:#FF0000; }
+
+#cuentasPremium span.p {
+	color:#FFFFFF;
+	font-size:12px;
+	width:200px;
+	margin:10px 10px 10px 170px;
+	padding-left:20px;
+	display:block;
+}
+
+#cuentasPremium .err span.p {
+	color:#FF2709;
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/err.gif) top left no-repeat;
+}
+
+#cuentasPremium .noerr span.p {	display:none; }
+
+#cuentasPremium .noerrOK span.p {
+	color:#84FF09;
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/ok.gif) top left no-repeat;
+}
+
+#cuentasPremium .comprobando { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/cargando.gif) 350px 2px no-repeat; }
+
+#cuentasPremium #imgCargando { padding-left:170px; }
+
+#cuentasPremium #comprobar {
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/comprobar_bg.gif) repeat-x;
+	color:#fff4dc;
+	border:none;
+	width:170px;
+	margin-bottom:20px;
+}
+
+#cuentasPremium .seguridad,
+#cuentasPremium .nivel-actual {	height:17px; background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/seguridad_bg.gif) no-repeat; }
+
+
+#cuentasPremium .seguridad {
+	line-height:17px;
+	width:231px;
+	background-position:top left;
+	float:left;
+}
+
+#cuentasPremium .nivel-actual {
+	background-position:bottom left;
+	padding-left:5px;
+	font-size:12px;
+	color:#000000;
+	font-weight:bold;
+}
+
+#cuentasPremium .checkbox {
+	height:21px;
+	display:block;
+	line-height:21px;
+	padding-left:25px;
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/recordar_checkbox.gif) top left no-repeat;
+	cursor:pointer;
+}
+
+#cuentasPremium .checkbox.On {
+	background-position: bottom left;
+}
+
+#cuentasPremium #Submit {
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/submit.gif) top no-repeat;
+	width:130px;
+	height:41px;
+	line-height:37px;
+	display:block;
+	margin:0 auto;
+	font-weight:bold;
+	font-family:"Trebuchet MS";
+	font-size:16px;
+	color:#D8C18D;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+#cuentasPremium #Submit:hover {
+	background-position:bottom;
+	color:#ffff66;
+}
+
+.necesario {
+	color:#bdae90;
+	font-size:12px;
+	margin:15px 0px 0px 60px;
+}
+
+#cuentasPremium .form-tit { font-weight:bold; color:#ffe0a1; }
+
+.cuentas_premium { font-family:Verdana, Arial, Helvetica, sans-serif; color:#CCCCCC; }
+
+.cuentas_premium .terminos {
+	padding:15px 10px 10px 10px;
+	font-size:12px;
+	text-align:justify;
+}
+
+
+.cuentas_premium a {
+	color:#ffcd65;
+	text-decoration:underline;
+}
+
+.cuentas_premium a:hover {
+	text-decoration:none;
+}
+
+.cuentas_premium .tit {
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/tit_bg.gif) top center no-repeat;
+	padding-top:42px;
+	text-align:left;
+}
+
+.cuentas_premium .tit h1 {
+	margin-bottom:8px;
+	padding-left:60px;
+}
+
+.cuentas_premium h1 {
+	color:#edba1e;
+	font-family:"Trebuchet MS";
+	font-size:22px;
+	margin:0px 0px 0px 10px;
+}
+
+.cuentas_premium h2 {
+	color:#ffcc63;
+	font-size:16px;
+	text-align:left;
+	margin:0; padding:0;
+	margin-top:30px;
+}
+
+.cuentas_premium h3 {
+	color:#ffe0a1;
+	font-size:12px;
+	text-align:left;
+	margin-top:20px;
+	padding:0px 0px 15px 10px;
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/h3_bg.gif) left bottom no-repeat;
+}
+
+.cuentas_premium .necesario {
+	
+}
+
+.cuentas_premium .contenedor {
+	padding-left:10px;
+}
+
+.cuentas_premium .izq {
+	float:left;
+	width:330px;
+	margin-right:10px;
+}
+
+.cuentas_premium .izq p {
+	color:#fff4dc;
+	font-size:12px;
+	text-align:left;
+}
+
+.cuentas_premium .izq ul {
+	margin:0;
+	padding:0;
+	text-align:left;
+	font-size:12px;
+	color:#f5e3bc;
+}
+
+ul.beneficios li {
+	list-style-type:none;
+	margin:10px 0px 5px 0px;
+	padding-left:25px;
+}
+
+ul.beneficios li.medalla { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/medalla.gif) top left no-repeat; }
+ul.beneficios li.monedas { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/monedas.gif) top left no-repeat; }
+ul.beneficios li.estrella { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/estrella.gif) top left no-repeat; }
+ul.beneficios li.candado { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/candado.gif) top left no-repeat; }
+ul.beneficios li.imagen { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/imagen.gif) top left no-repeat; }
+ul.beneficios li.coment { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/coment.gif) top left no-repeat; }
+ul.beneficios li.carita { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/carita.gif) top left no-repeat; }
+ul.beneficios li.transferencia { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/transferencia.gif) top left no-repeat; }
+
+
+ul.beneficios li.pInter { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/pInter.gif) top left no-repeat; }
+ul.beneficios li.aInter { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/aInter.gif) top left no-repeat; }
+ul.beneficios li.fInter { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/fInter.gif) top left no-repeat; }
+ul.beneficios li.rCompra { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/rCompra.gif) top left no-repeat; }
+ul.beneficios li.rInter { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/rInter.gif) top left no-repeat; }
+
+
+ul.beneficios li.anunInfo { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/anuncioInfo.gif) top left no-repeat; }
+ul.beneficios li.anunAlert { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/anunAlert.gif) top left no-repeat; }
+ul.beneficios li.anunSAlert { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/anunSAlert.gif) top left no-repeat; }
+ul.beneficios li.anunCrit { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/anunCrit.gif) top left no-repeat; }
+
+ul.beneficios li.tdsf { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/tdsf.gif) top left no-repeat; }
+ul.beneficios li.tdsf-mispjs { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/tdsf-mispjs.gif) top left no-repeat; }
+ul.beneficios li.tdsf-descargar { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/tdsf-descargar.gif) top left no-repeat; }
+ul.beneficios li.tdsf-est { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/tdsf-est.gif) top left no-repeat; }
+ul.beneficios li.tdsf-transferir { background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/tdsf-transferir.gif) top left no-repeat; }
+
+
+
+ul.beneficios li p {
+	margin:0; padding:0;
+	line-height:18px;
+	padding-bottom:15px;
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/li_bg.gif) bottom repeat-x;
+}
+
+.cuentas_premium .crea-tu-cuenta {
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/crea-tu-cuenta.gif) center no-repeat;
+	display:block;
+	height:292px;
+}
+
+.cuentas_premium .crea-tu-cuenta span { display:none; }
+
+.der { float:left; width:210px; }
+
+#login {
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/login_bg.gif) top no-repeat;
+	width:208px;
+	height:248px;
+	padding-top:45px;
+	margin-bottom:20px;
+}
+
+#login form { margin:0; padding:0; }
+
+#login h4 {
+	margin:0; padding:0;
+	text-align:center;
+	color:#ffeb90;
+	font-size:14px;
+	margin-bottom:20px;
+}
+
+#login p {
+	text-align:center;
+	margin:0;
+}
+
+#login label {
+	color:#eae3c4;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+#login input { border:0; }
+
+#login .input-bg {
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/login-input_bg.gif) bottom no-repeat;
+	height:28px;
+	width:125px;
+	padding-left:10px;
+	padding-right:5px;
+	margin:0 auto;
+}
+
+#login .input {
+	color:#FFFFFF;
+	font-weight:bold;
+	background:transparent;
+	padding-top:5px;
+	height:18px;
+	width:115px;
+}
+
+#login .rLabel {
+	width:105px;
+	height:21px;
+	display:block;
+	margin:0 auto;
+	margin-top:10px;
+}
+
+#login #checkbox {
+	width:80px;
+	height:21px;
+	display:block;
+	line-height:21px;
+	padding-left:25px;
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/recordar_checkbox.gif) top left no-repeat;
+}
+
+#login #checkbox.On {
+	background-position: bottom left;
+}
+
+#login a {
+	font-size:11px;
+	font-weight:bold;
+}
+
+#login .entrar {
+	text-align:right;
+	padding-right:25px;
+	margin-top:10px;
+}
+
+#login .entrar input {
+	background:url(/web/20110823153222im_/http://tierrasdelsur.cc/imagenes/cuentas/entrar.gif) no-repeat;
+	height:21px;
+	width:65px;
+	padding-bottom:2px;
+	color:#ffe263;
+	font-weight:bold;
+	font-family:"Trebuchet MS";
+	font-size:12px;
+	cursor:pointer;
+}
+
+#precios { width:100%; }
+
+#precios caption {
+	font-size:14px;
+	font-weight:bold;
+	color:#CDA456;
+	text-align:center;
+}
+
+#precios th {
+	font-weight:bold;
+	color:#D8D7C7;
+	font-size:12px;
+	text-align:right;
+}
+
+#precios td {
+	font-weight:bold;
+	color:#CAC780;
+	font-size:11px;
+}
+
+.cols:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.cols { display: inline-block;}
+
+* html .cols {height: 1%;}
+.cols {display: block;}
+/*
+     FILE ARCHIVED ON 15:32:22 Aug 23, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:08:39 Oct 25, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 105.771
+  exclusion.robots: 0.067
+  exclusion.robots.policy: 0.059
+  cdx.remote: 0.055
+  esindex: 0.009
+  LoadShardBlock: 82.236 (3)
+  PetaboxLoader3.datanode: 51.643 (4)
+  load_resource: 112.757
+  PetaboxLoader3.resolve: 84.841
+*/

@@ -1,0 +1,87 @@
+Attribute VB_Name = "modEngine_Properties"
+Option Explicit
+
+Private Const k_Filename As String = "Configuration.toml"
+
+Private Type Settings
+    Audio_MusicEnabled     As Boolean
+    Audio_MusicVolume      As Long
+    Audio_EffectEnabled    As Boolean
+    Audio_EffectVolume     As Long
+    Audio_InterfaceEnabled As Boolean
+    Audio_InterfaceVolume  As Long
+    
+    Graphics_Fullscreen    As Boolean
+End Type
+
+Public Configuration As Settings
+
+Public Sub LoadProperties()
+
+    Dim Data As String
+    
+    If (FileExist(k_Filename, vbNormal)) Then
+        Open k_Filename For Input Access Read As #1
+            Data = Input$(LOF(1), #1)
+        Close #1
+    End If
+    
+    Dim Parser As TOMLParser
+    Set Parser = New TOMLParser
+    Call Parser.Load(Data)
+    
+    Call LoadAudioProperties(Parser.GetSection("Audio"))
+    Call LoadGraphicProperties(Parser.GetSection("Graphics"))
+    
+End Sub
+
+Private Sub LoadAudioProperties(ByVal Section As TOMLSection)
+    
+    Configuration.Audio_MusicEnabled = Section.GetBool("MusicEnabled", True)
+    Configuration.Audio_MusicVolume = Section.GetInt32("MusicVolume", 100)
+    Configuration.Audio_EffectEnabled = Section.GetBool("EffectEnabled", True)
+    Configuration.Audio_EffectVolume = Section.GetInt32("EffectVolume", 100)
+    Configuration.Audio_InterfaceEnabled = Section.GetBool("InterfaceEnabled", True)
+    Configuration.Audio_InterfaceVolume = Section.GetInt32("InterfaceVolume", 100)
+    
+End Sub
+
+Private Sub LoadGraphicProperties(ByVal Section As TOMLSection)
+
+    Configuration.Graphics_Fullscreen = Section.GetBool("Fullscreen", False)
+    
+End Sub
+
+Public Sub SaveProperties()
+    
+    Dim Parser As TOMLParser
+    Set Parser = New TOMLParser
+        
+    Call SaveAudioProperties(Parser.GetSection("Audio"))
+    Call SaveGraphicProperties(Parser.GetSection("Graphics"))
+    
+    Open k_Filename For Binary Access Write As #1
+        Put #1, , Parser.Dump()
+    Close #1
+
+End Sub
+
+Private Sub SaveAudioProperties(ByVal Section As TOMLSection)
+    
+    Call Section.SetBool("MusicEnabled", Configuration.Audio_MusicEnabled)
+    Call Section.SetInt32("MusicVolume", Configuration.Audio_MusicVolume)
+    Call Section.SetBool("EffectEnabled", Configuration.Audio_EffectEnabled)
+    Call Section.SetInt32("EffectVolume", Configuration.Audio_EffectVolume)
+    Call Section.SetBool("InterfaceEnabled", Configuration.Audio_InterfaceEnabled)
+    Call Section.SetInt32("InterfaceVolume", Configuration.Audio_InterfaceVolume)
+
+End Sub
+
+Private Sub SaveGraphicProperties(ByVal Section As TOMLSection)
+
+    Call Section.SetBool("Fullscreen", Configuration.Graphics_Fullscreen)
+    
+End Sub
+
+
+

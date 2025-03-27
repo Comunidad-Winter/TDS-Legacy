@@ -1,0 +1,622 @@
+#cuentasPremium {
+    text-align: left
+}
+
+#cuentasPremium .campos {
+    float: left;
+    padding-left: 10px
+}
+
+#cuentasPremium .terminar {
+    padding-left: 10px;
+    color: #fff4dc;
+    font-size: 12px
+}
+
+#cuentasPremium .terminar label {
+    float: left;
+    display: block;
+    width: 150px;
+    margin: 3px 15px 0 0;
+    text-align: right;
+    cursor: pointer;
+    color: #fff4dc;
+    font-size: 12px
+}
+
+#cuentasPremium .avisos {
+    float: right;
+    padding-left: 5px;
+    display: none
+}
+
+#cuentasPremium .avisos p {
+    width: 135px
+}
+
+#cuentasPremium fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    background: url(/imagenes/cuentas/linea.gif) bottom repeat-x;
+    padding-bottom: 20px
+}
+
+#cuentasPremium p {
+    color: #fff4dc;
+    font-size: 12px;
+    margin-top: 20px
+}
+
+#cuentasPremium .campos label {
+    float: left;
+    display: block;
+    width: 150px;
+    margin: 3px 15px 0 0;
+    text-align: right;
+    cursor: pointer;
+    color: #fff4dc;
+    font-size: 12px
+}
+
+#cuentasPremium .input {
+    display: block;
+    background: url(/imagenes/cuentas/input_bg.gif) left top no-repeat;
+    color: #fff;
+    width: 225px;
+    height: 25px;
+    padding: 0 5px;
+    float: left;
+    margin-bottom: 20px
+}
+
+#cuentasPremium .textarea {
+    display: block;
+    background: transparent url(cuentas/imagenes/text_bg.gif) left top no-repeat;
+    width: 231px;
+    height: 102px;
+    padding: 0 5px;
+    float: left;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 10pt
+}
+
+#cuentasPremium .textarea textarea {
+    width: 220px;
+    height: 94px;
+    border: none;
+    background: 0 0;
+    color: #fff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-top: 3px;
+    overflow: auto
+}
+
+#cuentasPremium .select {
+    display: block;
+    background: transparent url(cuentas/imagenes/text_bg.gif) left top no-repeat;
+    width: 231px;
+    height: 102px;
+    padding: 5px;
+    float: left;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 8pt
+}
+
+#cuentasPremium .select select option {
+    background: #262626
+}
+
+#cuentasPremium .select select {
+    font-size: 8pt;
+    width: 220px;
+    height: 94px;
+    border: 1px solid #262626;
+    background: 0 0;
+    color: #fff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-top: 3px;
+    overflow: auto;
+    scrollbar-arrow-color: #ccc;
+    scrollbar-track-color: #101010;
+    scrollbar-shadow-color: #1c1c1c;
+    scrollbar-face-color: #262626;
+    scrollbar-highlight-color: #ccc;
+    scrollbar-darkshadow-color: #000;
+    scrollbar-3dlight-color: #1c1c1c
+}
+
+#cuentasPremium .input input {
+    width: 220px;
+    height: 17px;
+    border: none;
+    background: 0 0;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 3px
+}
+
+#cuentasPremium .input-chico {
+    display: block;
+    background: url(/imagenes/cuentas/input_chico_bg.gif) left top no-repeat;
+    width: 54px;
+    height: 25px;
+    padding: 0 5px;
+    float: left;
+    margin-bottom: 20px
+}
+
+#cuentasPremium .input-chico input {
+    width: 50px;
+    height: 17px;
+    border: none;
+    background: 0 0;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 3px
+}
+
+#cuentasPremium .err .input {
+    background-position: bottom
+}
+
+#cuentasPremium .err .input input {
+    color: red
+}
+
+#cuentasPremium span.p {
+    color: #fff;
+    font-size: 12px;
+    width: 200px;
+    margin: 10px 10px 10px 170px;
+    padding-left: 20px;
+    display: block
+}
+
+#cuentasPremium .err span.p {
+    color: #ff2709;
+    background: url(/imagenes/cuentas/err.gif) top left no-repeat
+}
+
+#cuentasPremium .noerr span.p {
+    display: none
+}
+
+#cuentasPremium .noerrOK span.p {
+    color: #84ff09;
+    background: url(/imagenes/cuentas/ok.gif) top left no-repeat
+}
+
+#cuentasPremium .comprobando {
+    background: url(/imagenes/cuentas/cargando.gif) 350px 2px no-repeat
+}
+
+#cuentasPremium #imgCargando {
+    padding-left: 170px
+}
+
+#cuentasPremium #comprobar {
+    background: url(/imagenes/cuentas/comprobar_bg.gif) repeat-x;
+    color: #fff4dc;
+    border: none;
+    width: 170px;
+    margin-bottom: 20px
+}
+
+#cuentasPremium .seguridad,
+#cuentasPremium .nivel-actual {
+    height: 17px;
+    background: url(/imagenes/cuentas/seguridad_bg.gif) no-repeat
+}
+
+#cuentasPremium .seguridad {
+    line-height: 17px;
+    width: 231px;
+    background-position: top left;
+    float: left
+}
+
+#cuentasPremium .nivel-actual {
+    background-position: bottom left;
+    padding-left: 5px;
+    font-size: 12px;
+    color: #000;
+    font-weight: 700
+}
+
+#cuentasPremium .checkbox {
+    height: 21px;
+    display: block;
+    line-height: 21px;
+    padding-left: 25px;
+    background: url(/imagenes/cuentas/recordar_checkbox.gif) top left no-repeat;
+    cursor: pointer
+}
+
+#cuentasPremium .checkbox.On {
+    background-position: bottom left
+}
+
+#cuentasPremium #Submit {
+    background: url(/imagenes/cuentas/submit.gif) top no-repeat;
+    width: 130px;
+    height: 41px;
+    line-height: 37px;
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+    font-family: trebuchet ms;
+    font-size: 16px;
+    color: #d8c18d;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none
+}
+
+#cuentasPremium #Submit:hover {
+    background-position: bottom;
+    color: #ff6
+}
+
+.necesario {
+    color: #bdae90;
+    font-size: 12px;
+    margin: 15px 0 0 60px
+}
+
+#cuentasPremium .form-tit {
+    font-weight: 700;
+    color: #ffe0a1
+}
+
+.cuentas_premium {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #ccc
+}
+
+.cuentas_premium .terminos {
+    padding: 15px 10px 10px;
+    font-size: 12px;
+    text-align: justify
+}
+
+.cuentas_premium a {
+    color: #ffcd65;
+    text-decoration: underline
+}
+
+.cuentas_premium a:hover {
+    text-decoration: none
+}
+
+.cuentas_premium .tit {
+    background: url(/imagenes/cuentas/tit_bg.gif) top center no-repeat;
+    padding-top: 42px;
+    text-align: center
+}
+
+.cuentas_premium .tit h1 {
+    margin-bottom: 8px;
+    padding-left: 60px
+}
+
+.cuentas_premium h1 {
+    color: #edba1e;
+    font-family: trebuchet ms;
+    font-size: 22px;
+    margin: 0 0 0 10px
+}
+
+.cuentas_premium h2 {
+    color: #ffcc63;
+    font-size: 16px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px
+}
+
+.cuentas_premium h3 {
+    color: #ffe0a1;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 20px;
+    padding: 0 0 15px 10px;
+    background: url(/imagenes/cuentas/h3_bg.gif) left bottom no-repeat
+}
+
+.cuentas_premium .necesario {
+    padding-left: 1px;
+}
+
+.cuentas_premium .contenedor {
+    padding-left: 10px
+}
+
+.cuentas_premium .izq {
+    float: left;
+    width: 330px;
+    margin-right: 10px
+}
+
+.cuentas_premium .izq p {
+    color: #fff4dc;
+    font-size: 12px;
+    text-align: left
+}
+
+.cuentas_premium .izq ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 12px;
+    color: #f5e3bc
+}
+
+ul.beneficios li {
+    list-style-type: none;
+    margin: 10px 0 5px;
+    padding-left: 25px
+}
+
+ul.beneficios li.medalla {
+    background: url(/imagenes/cuentas/medalla.gif) top left no-repeat
+}
+
+ul.beneficios li.monedas {
+    background: url(/imagenes/cuentas/monedas.gif) top left no-repeat
+}
+
+ul.beneficios li.estrella {
+    background: url(/imagenes/cuentas/estrella.gif) top left no-repeat
+}
+
+ul.beneficios li.candado {
+    background: url(/imagenes/cuentas/candado.gif) top left no-repeat
+}
+
+ul.beneficios li.imagen {
+    background: url(/imagenes/cuentas/imagen.gif) top left no-repeat
+}
+
+ul.beneficios li.coment {
+    background: url(/imagenes/cuentas/coment.gif) top left no-repeat
+}
+
+ul.beneficios li.carita {
+    background: url(/imagenes/cuentas/carita.gif) top left no-repeat
+}
+
+ul.beneficios li.transferencia {
+    background: url(/imagenes/cuentas/transferencia.gif) top left no-repeat
+}
+
+ul.beneficios li.pInter {
+    background: url(/imagenes/cuentas/pInter.gif) top left no-repeat
+}
+
+ul.beneficios li.aInter {
+    background: url(/imagenes/cuentas/aInter.gif) top left no-repeat;
+    height: auto;
+}
+
+ul.beneficios li.fInter {
+    background: url(/imagenes/cuentas/fInter.gif) top left no-repeat
+}
+
+ul.beneficios li.rCompra {
+    background: url(/imagenes/cuentas/rCompra.gif) top left no-repeat
+}
+
+ul.beneficios li.rInter {
+    background: url(/imagenes/cuentas/rInter.gif) top left no-repeat
+}
+
+ul.beneficios li.anunInfo {
+    background: url(/imagenes/cuentas/anuncioInfo.gif) top left no-repeat
+}
+
+ul.beneficios li.anunAlert {
+    background: url(/imagenes/cuentas/anunAlert.gif) top left no-repeat
+}
+
+ul.beneficios li.anunSAlert {
+    background: url(/imagenes/cuentas/anunSAlert.gif) top left no-repeat
+}
+
+ul.beneficios li.anunCrit {
+    background: url(/imagenes/cuentas/anunCrit.gif) top left no-repeat
+}
+
+ul.beneficios li.tdsf {
+    background: url(/imagenes/cuentas/tdsf.gif) top left no-repeat
+}
+
+ul.beneficios li.tdsf-mispjs {
+    background: url(/imagenes/cuentas/tdsf-mispjs.gif) top left no-repeat
+}
+
+ul.beneficios li.tdsf-descargar {
+    background: url(/imagenes/cuentas/tdsf-descargar.gif) top left no-repeat
+}
+
+ul.beneficios li.tdsf-est {
+    background: url(/imagenes/cuentas/tdsf-est.gif) top left no-repeat
+}
+
+ul.beneficios li.tdsf-transferir {
+    background: url(/imagenes/cuentas/tdsf-transferir.gif) top left no-repeat
+}
+
+ul.beneficios li p {
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
+    padding-bottom: 15px;
+    background: url(/imagenes/cuentas/li_bg.gif) bottom repeat-x
+}
+
+.cuentas_premium .crea-tu-cuenta {
+    background: url(/imagenes/cuentas/crea-tu-cuenta.gif) center no-repeat;
+    display: block;
+    height: 292px
+}
+
+.cuentas_premium .crea-tu-cuenta span {
+    display: none
+}
+
+.der {
+    float: left;
+    width: 210px
+}
+
+#login {
+    background: url(/imagenes/cuentas/login_bg.gif) top no-repeat;
+    width: 208px;
+    height: 248px;
+    padding-top: 45px;
+    margin-bottom: 20px
+}
+
+#login form {
+    margin: 0;
+    padding: 0
+}
+
+#login h4 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ffeb90;
+    font-size: 14px;
+    margin-bottom: 20px
+}
+
+#login p {
+    text-align: center;
+    margin: 0
+}
+
+#login label {
+    color: #eae3c4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer
+}
+
+#login input {
+    border: 0
+}
+
+#login .input-bg {
+    background: url(/imagenes/cuentas/login-input_bg.gif) bottom no-repeat;
+    height: 28px;
+    width: 125px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin: 0 auto
+}
+
+#login .input {
+    color: #fff;
+    font-weight: 700;
+    background: 0 0;
+    padding-top: 5px;
+    height: 18px;
+    width: 115px
+}
+
+#login .rLabel {
+    width: 105px;
+    height: 21px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px
+}
+
+#login #checkbox {
+    width: 80px;
+    height: 21px;
+    display: block;
+    line-height: 21px;
+    padding-left: 25px;
+    background: url(/imagenes/cuentas/recordar_checkbox.gif) top left no-repeat
+}
+
+#login #checkbox.On {
+    background-position: bottom left
+}
+
+#login a {
+    font-size: 11px;
+    font-weight: 700
+}
+
+#login .entrar {
+    text-align: right;
+    padding-right: 25px;
+    margin-top: 10px
+}
+
+#login .entrar input {
+    background: url(/imagenes/cuentas/entrar.gif) no-repeat;
+    height: 21px;
+    width: 65px;
+    padding-bottom: 2px;
+    color: #ffe263;
+    font-weight: 700;
+    font-family: trebuchet ms;
+    font-size: 12px;
+    cursor: pointer
+}
+
+#precios {
+    width: 100%
+}
+
+#precios caption {
+    font-size: 14px;
+    font-weight: 700;
+    color: #cda456;
+    text-align: center
+}
+
+#precios th {
+    font-weight: 700;
+    color: #d8d7c7;
+    font-size: 12px;
+    text-align: right
+}
+
+#precios td {
+    font-weight: 700;
+    color: #cac780;
+    font-size: 11px
+}
+
+.cols:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.cols {
+    display: inline-block
+}
+
+* html .cols {
+    height: 1%
+}
+
+.cols {
+    display: block
+}

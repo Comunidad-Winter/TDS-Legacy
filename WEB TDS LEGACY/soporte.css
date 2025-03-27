@@ -1,0 +1,130 @@
+/* Soporte */
+
+.contenido_soporte {
+padding:0 5px 5px 0;
+cursor:default;
+}
+
+.contenido_soporte h2 {
+margin:0;
+font-family:Georgia;
+font-size:24px;
+color:#623300;
+font-weight:normal;
+text-align:center;
+position:relative;
+top:8px;
+}
+
+.contenido_soporte h3 {
+margin:0;
+font-family:Georgia;
+font-size:0.8em;
+color:#494949;
+text-align:center;
+position:relative;
+top:8px;
+}
+
+.contenido_soporte h4 {
+background-color:#F8EFD3;
+border:#666666 1px solid;
+padding:10px;
+margin:0;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:0.95em;
+color:#000000;
+font-weight:bold;
+text-align:center;
+}
+
+.contenido_soporte p {
+margin:0;
+font-family:"Microsoft Sans Serif";
+font-size:0.75em;
+font-weight:bold;
+color:#442300;
+text-align:center;
+}
+
+.form_soporte {
+margin-top:15px;
+z-index:999999;
+}
+
+.form_soporte form {
+margin:0;
+}
+
+.form_soporte p {
+padding-bottom:1.2em;
+}
+
+.form_soporte .input {
+width:117px;
+height:19px;
+background:url(/imagenes/bg_input.gif) repeat-x;
+border:#442300 1px solid;
+font-family:"Microsoft Sans Serif";
+font-size:1em;
+font-weight:bold;
+color:#FFFCEA;
+letter-spacing:1px;
+}
+
+.form_soporte .select {
+background:url(/imagenes/bg_input.gif) #89724A;
+border:#442300 1px solid;
+font-family:"Microsoft Sans Serif";
+font-size:1em;
+font-weight:bold;
+color:#FFFCEA;
+letter-spacing:1px;
+}
+
+.form_soporte textarea {
+background:url(/imagenes/bg_input.gif);
+border:#442300 1px solid;
+font-family:"Microsoft Sans Serif";
+font-size:1em;
+font-weight:bold;
+color:#FFFCEA;
+letter-spacing:1px;
+width:300px;
+height:200px;
+}
+
+.form_soporte .enviar {
+width:80px;
+height:19px;
+border:0;
+background:url(/imagenes/bg_enviar.gif);
+font-family:"Microsoft Sans Serif";
+font-size:0.9em;
+font-weight:bold;
+color:#102d02;
+text-decoration:none;
+letter-spacing:1px;
+cursor:pointer;
+}
+
+.form_soporte label {
+cursor:default;
+}
+
+#txt_alerta {
+font-family:Geneva, Arial, Helvetica, sans-serif;
+text-align:justify;
+border:#330000 2px solid;
+}
+
+#txt_alerta p {
+padding:10px;
+display:block;
+text-align:justify;
+}
+
+#txt_alerta img {
+float:left;
+margin:0 10px 10px 10px;
+}

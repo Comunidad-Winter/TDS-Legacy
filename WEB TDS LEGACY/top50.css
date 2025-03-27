@@ -1,0 +1,77 @@
+#tabla_top50 .top50_bg {
+    background: url(/imagenes/top50/head.gif) top center no-repeat;
+    height: 174px
+}
+
+#tabla_top50 .puesto {
+    background: url(/imagenes/top50/puesto_bg.gif) center no-repeat;
+    height: 40px;
+    font-family: trebuchet ms;
+    font-size: 1em;
+    font-weight: 700;
+    color: #999
+}
+
+#tabla_top50 .puesto ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: .35em;
+    margin-left: .6em
+}
+
+#tabla_top50 .puesto li {
+    display: block;
+    float: left;
+    text-align: center;
+    margin-right: .35em; 
+    text-overflow: clip; 
+    overflow: clip;
+}
+
+#tabla_top50 .puesto li.nro {
+    width: 3.8em
+}
+
+#tabla_top50 .puesto li.nick {
+    width: 7em;
+    white-space: nowrap;
+    
+}
+
+#tabla_top50 .puesto li.nick a {
+    text-decoration: none;
+    color: #999;
+    
+}
+
+#tabla_top50 .puesto li.nick a:hover {
+    text-decoration: underline
+}
+
+#tabla_top50 .puesto li.lvl {
+    width: 3.5em
+}
+
+#tabla_top50 .puesto li.clase {
+    width: 6em
+}
+
+#tabla_top50 .puesto li.clan {
+    width: 7.4em;
+    white-space: nowrap
+}
+
+#tabla_top50 .puesto li.exp {
+    width: 4.2em
+}
+
+.aclaracion {
+    text-align: left;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-style: normal;
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px
+}

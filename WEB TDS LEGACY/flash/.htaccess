@@ -1,0 +1,4 @@
+<FilesMatch "^(?!(.*\.js|.*\.css|.*\.png|.*\.jpg|.*\.bmp|.*\.jpeg|.*\.gif|.*\.swf)$)">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>

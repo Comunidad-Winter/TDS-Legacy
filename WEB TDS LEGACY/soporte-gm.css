@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+ 
+ .card { 
+	 width: 100%;
+	 max-width: 100%;
+	 max-height: 100%;
+	 display: flex;
+	 flex-direction: column;
+	 box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+ .table-concept {
+	 width: 100%;
+	 height: 100%;
+	 max-height: 100%;
+	 box-sizing: border-box;
+  
+}
+ .table-concept .table-radio {
+	 display: none;
+}
+ .table-concept .table-radio:checked + .table-display {
+	 display: block;
+}
+ .table-concept .table-radio:checked + .table-display + table {
+	 width: 100%;
+	 display: table;
+}
+ .table-concept .table-radio:checked + .table-display + table + .pagination {
+	 display: flex;
+}
+ .table-concept .table-radio:checked + .table-display + table + .pagination > label.active {
+	 color: #fff;
+	 background-color: #696969;
+	 cursor: default;
+}
+ .table-concept .table-radio:checked + .table-display + table + .pagination > label.disabled {
+	 color: #fff;
+	 background-color: #b5b5b5;
+	 cursor: default;
+}
+ .table-concept .table-display { 
+	 text-align: right;
+	 padding: 10px;
+	 display: none; 
+	 left: 0;
+}
+ .table-concept table { 
+	 font-size: 13px; 
+	 border-collapse: collapse;
+	 display: none;
+
+}
+ .table-concept table tr:last-child td {
+	 border-bottom: 0;
+}
+ .table-concept table tr th, .table-concept table tr td {
+	 text-align: left;
+	 max-width: 150px;
+	 text-overflow: clip;
+	 overflow: clip;
+	 padding: 2px;
+	 box-sizing: border-box; 
+}
+ .table-concept table tr th {
+	 color: #fff;
+	 font-weight: normal;
+	 background-color: #8f8f8f;
+	 border-bottom: solid 2px #d8d8d8;
+	 position: sticky;
+	 top: 0;
+}
+ .table-concept table tr td {
+	 border: solid 1px #d8d8d8;
+	 border-left: 0;
+	 border-right: 0;  
+}
+.status_0 {
+	 color: yellow;
+}
+.status_1,.status_2 {
+	 color: green;
+}
+.sin_pasarse {
+	text-overflow: clip;
+	overflow: clip;
+	max-width:200px;
+}
+.status_3 {
+	 color: red;
+}
+ .table-concept table tbody tr {
+	 transition: background-color 250ms ease-out;
+}
+ .table-concept table tbody tr:nth-child(2n) {
+	 background-color: #090909;
+}
+ .table-concept table tbody tr:hover {
+	 background-color: #3b3b3b;
+}
+ .table-concept .pagination {
+	 background-color: #8f8f8f;
+	 width: 100%;
+	 display: none;
+	 position: sticky;
+	 bottom: 0;
+	 left: 0;
+}
+ .table-concept .pagination > label {
+	 background-color: #8f8f8f;
+	 color: #fff;
+	 padding: 5px;
+	 cursor: pointer;
+}
+ .table-concept .pagination > label:hover {
+	 background-color: #a9a9a9;
+}
+ .table-concept .pagination > label:active {
+	 background-color: #767676;
+}
+ .table-title {
+	 color: #fff;
+	 background-color: #2f2f2f;
+	 padding: 3px;
+}
+ .table-title h2 {
+	 margin: 0;
+	 padding: 0;
+}
+ .button-container {
+	 width: 100%;
+	 box-sizing: border-box;
+	 display: flex;
+	 justify-content: flex-end;
+}
+ .button-container span {
+	 color: #8f8f8f;
+	 text-align: right;
+	 min-height: 100%;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 margin-left: 10px;
+	 margin-right: 10px;
+}
+ .button-container button {
+	 font-family: inherit;
+	 font-size: inherit;
+	 color: #fff;
+	 padding: 10px 15px;
+	 border: 0;
+	 margin: 0;
+	 outline: 0;
+	 border-radius: 0;
+	 transition: background-color 225ms ease-out;
+}
+ .button-container button.primary {
+	 background-color: #147eff;
+}
+ .button-container button.primary:hover {
+	 background-color: #479aff;
+}
+ .button-container button.primary:active {
+	 background-color: #0065e0;
+}
+ .button-container button.primary {
+	 background-color: #147eff;
+}
+ .button-container button.primary:hover {
+	 background-color: #479aff;
+}
+ .button-container button.primary:active {
+	 background-color: #0065e0;
+}
+ .button-container button.danger {
+	 background-color: #d11800;
+}
+ .button-container button.danger:hover {
+	 background-color: #ff2205;
+}
+ .button-container button.danger:active {
+	 background-color: #9e1200;
+}
+ .button-container button svg {
+	 fill: #fff;
+	 vertical-align: middle;
+	 padding: 0;
+	 margin: 0;
+}
+ 
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline;
+  width: 100%;
+  list-style-type: none;  
+}
+.page-item {
+  display: inline;
+  width: 100%;
+  list-style-type: none;  
+}
+
+.pagination a {
+  float: left;
+  font-size: 22px;
+
+  padding: 8px 16px;
+  color:white;
+  text-decoration: none;
+  border-radius: 5px;
+transition: background-color .3s;
+ margin: 0 4px; 
+}
+.pagination a.active {
+  background-color: deeppink;
+  color: grey;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {background-color: goldenrod;}
+ 

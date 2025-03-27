@@ -1,0 +1,17 @@
+[Mapa235]
+Name=Juegos del Hambre
+MusicNum=0
+MagiaSinefecto=0
+InviSinEfecto=1
+ResuSinEfecto=1
+OcultarSinEfecto=1
+InvocarSinEfecto=1
+RoboNpcsPermitido=0
+NoEncriptarMP=0
+Terreno=BOSQUE
+Zona=DUNGEON
+Restringir=0
+BackUp= 1
+Pk=1
+
+

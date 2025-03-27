@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+    <assemblyIdentity name="TDSLegacyUpdater" processorArchitecture="X86" type="win32" version="1.1.0.2" />
+    <description>TDS Legacy</description>
+    <file name="MSINET.OCX">
+        <typelib tlbid="{48E59290-9880-11CF-9754-00AA00C00908}" version="1.0" flags="control,hasdiskimage" helpdir="" />
+        <comClass clsid="{48E59293-9880-11CF-9754-00AA00C00908}" tlbid="{48E59290-9880-11CF-9754-00AA00C00908}" progid="InetCtls.Inet.1" threadingModel="Apartment" miscStatus="" miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,invisibleatruntime,setclientsitefirst">
+            <progid>InetCtls.Inet</progid>
+        </comClass>
+        <comClass clsid="{E2D211D5-11E4-4D9E-B6DB-1E902C851A49}" tlbid="{48E59290-9880-11CF-9754-00AA00C00908}" threadingModel="Apartment" miscStatus="" miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,invisibleatruntime,setclientsitefirst" />
+    </file>
+    <file name="RICHTX32.OCX">
+        <typelib tlbid="{3B7C8863-D78F-101B-B9B5-04021C009402}" version="1.2" flags="control,hasdiskimage" helpdir="" />
+        <comClass clsid="{3B7C8860-D78F-101B-B9B5-04021C009402}" tlbid="{3B7C8863-D78F-101B-B9B5-04021C009402}" progid="RICHTEXT.RichtextCtrl.1" threadingModel="Apartment" miscStatus="" miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst">
+            <progid>RICHTEXT.RichtextCtrl</progid>
+        </comClass>
+        <comClass clsid="{894BA3A3-3CA3-402F-B4FE-CD08337E9535}" tlbid="{3B7C8863-D78F-101B-B9B5-04021C009402}" threadingModel="Apartment" miscStatus="" miscStatusContent="recomposeonresize,cantlinkinside,insideout,activatewhenvisible,setclientsitefirst" />
+    </file>
+</assembly>

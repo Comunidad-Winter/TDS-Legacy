@@ -1,0 +1,14 @@
+[INIT]
+PuntosDeCanje=3
+Oro=3500000
+Inscripcion=100000
+Sala_de_espera=237-58-80
+
+Mapa=201
+MapaAcuatico=201
+ARENA_X=19
+ARENA_Y=71
+
+BANCO_X=19
+BANCO_Y=71
+Tiempo_ParaVolver=30

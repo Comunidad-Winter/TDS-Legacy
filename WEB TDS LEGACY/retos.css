@@ -1,0 +1,296 @@
+/* Retos */
+
+#tabla_retos .retos_bg {
+    background: url(/imagenes/retos/head.gif) top center no-repeat;
+    height: 174px;
+}
+
+/*| primer puesto |*/
+#tabla_retos .primer_puesto {
+    background: url(/imagenes/retos/primer_puesto_bg.gif) center no-repeat;
+    height: 106px;
+    font-family: "Trebuchet MS";
+    font-size: 1.3em;
+    color: #E8DD8E;
+}
+
+#tabla_retos .primer_puesto ul {
+    list-style: none;
+    margin: 0 auto 0 auto;
+    padding-top: 2em;
+    padding-left: 6em;
+}
+
+#tabla_retos .primer_puesto li {
+    display: block;
+    float: left;
+    text-align: center;
+    margin-left: 1px;
+}
+
+#tabla_retos .primer_puesto li.nick {
+    overflow: clip;
+    text-overflow: clip; 
+    max-width: 125px;
+    width: 125px;
+}
+
+#tabla_retos .primer_puesto li.nick a {
+    text-decoration: none;
+    color: #E8DD8E;
+}
+
+#tabla_retos .primer_puesto li.nick a:hover {
+    text-decoration: underline;
+}
+
+#tabla_retos .primer_puesto li.lvl {
+    width: 3em;
+}
+
+#tabla_retos .primer_puesto li.rg {
+    padding-top: 0.5em;
+    width: 2.3em;
+}
+
+#tabla_retos .primer_puesto li.og {
+    padding-top: 0.65em;
+    width: 3em;
+    font-size: 0.85em;
+}
+
+#tabla_retos .primer_puesto li.rp {
+    padding-top: 0.5em;
+    padding-left: 0.2em;
+    width: 2.5em;
+}
+
+#tabla_retos .primer_puesto li.op {
+    padding-top: 0.65em;
+    width: 0.8em;
+    font-size: 0.85em;
+}
+
+/*| /primer puesto |*/
+
+/*| segundo puesto |*/
+#tabla_retos .segundo_puesto {
+    background: url(/imagenes/retos/segundo_puesto_bg.gif) center no-repeat;
+    height: 92px;
+    font-family: "Trebuchet MS";
+    font-size: 1.2em;
+    color: #E0E0E0;
+}
+
+#tabla_retos .segundo_puesto ul {
+    list-style: none;
+    margin: 0 auto 0 auto;
+    padding-top: 1.7em;
+    padding-left: 7em;
+}
+
+#tabla_retos .segundo_puesto li {
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+#tabla_retos .segundo_puesto li.nick {
+    overflow: clip;
+    text-overflow: clip; 
+    max-width: 115px;
+    width: 125px;
+}
+
+#tabla_retos .segundo_puesto li.nick a {
+    text-decoration: none;
+    color: #E0E0E0;
+}
+
+#tabla_retos .segundo_puesto li.nick a:hover {
+    text-decoration: underline;
+}
+
+#tabla_retos .segundo_puesto li.lvl {
+    width: 3.3em;
+}
+
+#tabla_retos .segundo_puesto li.rg {
+    padding-top: 0.7em;
+    width: 2.3em;
+}
+
+#tabla_retos .segundo_puesto li.og {
+    font-weight: bold;
+    padding-top: 0.75em;
+    width: 3.5em;
+    font-size: 0.85em;
+}
+
+#tabla_retos .segundo_puesto li.rp {
+    padding-top: 0.7em;
+    padding-left: 0.8em;
+    width: 1.7em;
+}
+
+#tabla_retos .segundo_puesto li.op {
+    font-weight: bold;
+    padding-top: 0.75em;
+    font-size: 0.85em;
+    padding-left: 5px;
+}
+
+/*| /segundo puesto |*/
+
+/*| tercer puesto |*/
+#tabla_retos .tercer_puesto {
+    background: url(/imagenes/retos/tercer_puesto_bg.gif) center no-repeat;
+    height: 88px;
+    font-family: "Trebuchet MS";
+    font-size: 1.1em;
+    color: #E29A65;
+}
+
+#tabla_retos .tercer_puesto ul {
+    list-style: none;
+    margin: 0 auto 0 auto;
+    padding-top: 1.7em;
+    padding-left: 7em;
+}
+
+#tabla_retos .tercer_puesto li {
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+#tabla_retos .tercer_puesto li.nick {
+    overflow: clip;
+    text-overflow: clip; 
+    max-width: 130px;
+    width: 130px;
+}
+
+#tabla_retos .tercer_puesto li.nick a {
+    text-decoration: none;
+    color: #E29A65;
+}
+
+#tabla_retos .tercer_puesto li.nick a:hover {
+    text-decoration: underline;
+}
+
+#tabla_retos .tercer_puesto li.lvl {
+    width: 3.3em;
+}
+
+#tabla_retos .tercer_puesto li.rg {
+    padding-top: 0.8em;
+    width: 3em;
+}
+
+#tabla_retos .tercer_puesto li.og {
+    font-weight: bold;
+    padding-top: 0.85em;
+    width: 3.5em;
+    font-size: 0.85em;
+}
+
+#tabla_retos .tercer_puesto li.rp {
+    padding-top: 0.8em;
+    padding-left: 0.7em;
+    width: 2em;
+}
+
+#tabla_retos .tercer_puesto li.op {
+    font-weight: bold;
+    padding-top: 0.85em;
+    font-size: 0.85em;
+}
+
+/*| /tercer puesto |*/
+
+/*| puesto |*/
+#tabla_retos .puesto {
+    background: url(/imagenes/retos/puesto_bg.gif) center no-repeat;
+    height: 70px;
+    font-family: "Trebuchet MS";
+    font-size: 1em;
+    font-weight: bold;
+    color: #999999;
+    
+}
+
+#tabla_retos .puesto ul {
+    list-style: none;
+    margin: 0 auto 0 auto;
+    padding-top: 1.1em;
+    padding-left: 4.3em;
+}
+
+#tabla_retos .puesto li {
+    display: block;
+    float: left;
+    text-align: center;
+    
+}
+
+#tabla_retos .puesto li.nro {
+    width: 3.5em;
+}
+
+#tabla_retos .puesto li.nick {
+    overflow: clip;
+    text-overflow: clip; 
+    max-width: 130px;
+    width: 130px;
+    
+}
+
+#tabla_retos .puesto li.nick a {
+    text-decoration: none;
+    color: #999999;
+}
+
+#tabla_retos .puesto li.nick a:hover {
+    text-decoration: underline;
+}
+
+#tabla_retos .puesto li.lvl {
+    width: 3.5em;
+}
+
+#tabla_retos .puesto li.rg {
+    padding-top: 1.1em;
+    width: 3.5em;
+}
+
+#tabla_retos .puesto li.og {
+    padding-top: 1.4em;
+    width: 3.7em;
+    font-size: 0.85em;
+}
+
+#tabla_retos .puesto li.rp {
+    padding-top: 1.1em;
+    padding-left: 0.9em;
+    width: 1.5em;
+}
+
+#tabla_retos .puesto li.op {
+    padding-top: 1.4em;
+    font-size: 0.85em;
+    padding-left: 5px;
+}
+
+/*| /puesto |*/
+
+.aclaracion {
+    text-align: left;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-style: normal;
+    color: #CCCCCC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}

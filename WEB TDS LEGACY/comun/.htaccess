@@ -1,0 +1,26 @@
+RewriteCond %{SCRIPT_FILENAME} -d [OR]
+RewriteCond %{SCRIPT_FILENAME} -f
+RewriteRule "(^|/)\." - [F]
+RedirectMatch 404 /\..*$
+
+<FilesMatch "(\.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|swp|php)|~)$">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</FilesMatch>
+Options All -Indexes
+
+# Restricted access to files
+<FilesMatch "((\.(lock|cache|db))|CHANGELOG.md|README.md|^(.*\.config|.*\.example)(.*?))$">
+	# Apache < 2.3
+	<IfModule !mod_authz_core.c>
+		Order allow,deny
+		Deny from all
+		Satisfy All
+	</IfModule>
+
+	# Apache ≥ 2.3
+	<IfModule mod_authz_core.c>
+		Require all denied
+	</IfModule>
+</FilesMatch>

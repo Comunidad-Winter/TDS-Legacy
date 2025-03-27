@@ -1,0 +1,23 @@
+03/26/25 21:18:51.779 [38332] - I - Kernel: Creating platform service
+03/26/25 21:18:51.786 [38332] - I - Kernel: Creating input service
+03/26/25 21:18:51.786 [38332] - I - Kernel: Creating graphics service
+03/26/25 21:18:51.912 [38332] - I - Graphics: Detected shader model 5
+03/26/25 21:18:51.912 [38332] - I - Graphics: Found GPU 'NVIDIA GeForce RTX 4070 Ti'
+03/26/25 21:18:51.912 [38332] - I - Graphics:     Memory 3072 (video), 0 (system), 1023 (shared)
+03/26/25 21:18:51.912 [38332] - I - Graphics: Found GPU 'Intel(R) UHD Graphics'
+03/26/25 21:18:51.912 [38332] - I - Graphics:     Memory 128 (video), 0 (system), 3967 (shared)
+03/26/25 21:18:51.912 [38332] - I - Kernel: Creating audio service
+03/26/25 21:18:51.932 [38332] - I - Kernel: Creating content service
+03/26/25 21:18:51.932 [38332] - I - Kernel: Creating network service
+03/26/25 21:18:51.939 [38332] - D - Resources: Loading 'Engine://Pipeline/Geometry.shader'
+03/26/25 21:18:51.943 [38332] - D - Resources: Loading 'Engine://Pipeline/Geometry.effect'
+03/26/25 21:18:51.943 [38332] - D - Resources: Loading 'Engine://Pipeline/Font.shader'
+03/26/25 21:18:51.952 [38332] - D - Resources: Loading 'Engine://Pipeline/Font.effect'
+03/26/25 21:18:53.145 [38332] - D - Resources: Loading 'Resources://Wav/cadenas.wav'
+03/26/25 21:18:56.116 [38332] - W - Resources: Unknown file format 'Wav'
+03/26/25 21:18:56.116 [38332] - D - Resources: Unloading 'Resources://Wav/click.Wav'
+03/26/25 21:19:09.105 [38332] - D - Resources: Loading 'Resources://Wav/3.wav'
+03/26/25 21:19:10.065 [38332] - W - Resources: Unknown file format 'Wav'
+03/26/25 21:19:10.065 [38332] - D - Resources: Unloading 'Resources://Wav/23.Wav'
+03/26/25 21:19:10.315 [38332] - W - Resources: Unknown file format 'Wav'
+03/26/25 21:19:10.315 [38332] - D - Resources: Unloading 'Resources://Wav/24.Wav'

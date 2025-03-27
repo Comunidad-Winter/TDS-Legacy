@@ -1,0 +1,52 @@
+.caja {
+width:100%;
+overflow:hidden;
+background:url(/web/20110411034902im_/http://www.tierrasdelsur.cc/imagenes/caja_bg.gif);
+cursor:default;
+margin-top:10px;
+}
+
+.caja_shadow_t {
+background:url(/web/20110411034902im_/http://www.tierrasdelsur.cc/imagenes/caja_shadow_t.gif) top repeat-x;
+}
+
+.caja_shadow_b {
+background:url(/web/20110411034902im_/http://www.tierrasdelsur.cc/imagenes/caja_shadow_b.gif) bottom repeat-x;
+}
+
+.caja_t {
+background:url(/web/20110411034902im_/http://www.tierrasdelsur.cc/imagenes/caja_t.gif) top repeat-x;
+}
+
+.caja_b {
+background:url(/web/20110411034902im_/http://www.tierrasdelsur.cc/imagenes/caja_b.gif) bottom repeat-x;
+}
+
+.caja_l {
+background:url(/web/20110411034902im_/http://www.tierrasdelsur.cc/imagenes/caja_l.gif) left repeat-y;
+}
+
+.caja_r {
+background:url(/web/20110411034902im_/http://www.tierrasdelsur.cc/imagenes/caja_r.gif) right repeat-y;
+}
+
+/*
+     FILE ARCHIVED ON 03:49:02 Apr 11, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:07:02 Oct 25, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 375.78
+  exclusion.robots: 0.182
+  exclusion.robots.policy: 0.166
+  cdx.remote: 0.08
+  esindex: 0.011
+  LoadShardBlock: 342.43 (3)
+  PetaboxLoader3.datanode: 136.765 (4)
+  load_resource: 229.928
+  PetaboxLoader3.resolve: 175.988
+*/

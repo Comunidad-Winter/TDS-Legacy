@@ -1,0 +1,497 @@
+VERSION 1.0 CLASS
+BEGIN
+  MultiUse = -1  'True
+  Persistable = 0  'NotPersistable
+  DataBindingBehavior = 0  'vbNone
+  DataSourceBehavior  = 0  'vbNone
+  MTSTransactionMode  = 0  'NotAnMTSObject
+END
+Attribute VB_Name = "clsIniManager"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = False
+Option Explicit
+Option Base 0
+
+Private Type ChildNode
+    key As String
+    Value As String
+End Type
+
+Private Type MainNode
+    Name As String
+    Values() As ChildNode
+    numValues As Integer
+End Type
+
+''
+'Containts all Main sections of the loaded INI file
+Private fileData() As MainNode
+
+''
+'Stores the total number of main sections in the loaded INI file
+Private MainNodes As Long
+
+''
+'Default constructor. Does nothing.
+
+Private Sub Class_Initialize()
+'**************************************************************
+'Author: Juan Martín Sotuyo Dodero
+'Last Modify Date: 5/01/2006
+'
+'**************************************************************
+End Sub
+
+''
+'Destroy every array and deallocates al memory.
+'
+
+Private Sub Class_Terminate()
+'**************************************************************
+'Author: Juan Martín Sotuyo Dodero
+'Last Modify Date: 5/01/2006
+'
+'**************************************************************
+    Dim I As Long
+
+    'Clean up
+    If MainNodes Then
+        For I = 1 To MainNodes - 1
+            Erase fileData(I).Values
+        Next I
+
+        Erase fileData
+    End If
+
+    MainNodes = 0
+End Sub
+
+''
+'Loads a INI file so it's values can be read. Must be called before being able to use GetValue.
+'
+' @param    file Complete path of the INI file to be loaded.
+' @see      GetValue
+
+Public Sub Initialize(ByVal File As String)
+'**************************************************************
+'Author: Juan Martín Sotuyo Dodero
+'Last Modify Date: 27/07/2006
+'Opens the requested file and loads it's data into memory
+'**************************************************************
+    Dim handle As Integer
+    Dim Text As String
+    Dim Pos As Long
+
+    'Prevent memory losses if we are attempting to reload a file....
+    Call Class_Terminate
+
+    'Get a free handle and start reading line by line until the end
+    handle = FreeFile
+    Open File For Input As handle
+
+    Do Until EOF(handle)
+        Line Input #handle, Text
+
+        'Is it null??
+        If Len(Text) Then
+            'If it starts with '[' it is a main node or nothing (GetPrivateProfileStringA works this way), otherwise it's a value
+            If Left$(Text, 1) = "[" Then
+                'If it has an ending ']' it's a main node, otherwise it's nothing
+                Pos = InStr(2, Text, "]")
+                If Pos Then
+                    'Add a main node
+                    ReDim Preserve fileData(MainNodes) As MainNode
+
+                    fileData(MainNodes).Name = UCase$(Trim$(mid$(Text, 2, Pos - 2)))
+
+                    MainNodes = MainNodes + 1
+                End If
+            Else
+                'So it's a value. Check if it has a '=', otherwise it's nothing
+                Pos = InStr(2, Text, "=")
+                If Pos Then
+                    'Is it under any main node??
+                    If MainNodes Then
+                        With fileData(MainNodes - 1)
+                            'Add it to the main node's value
+                            ReDim Preserve .Values(.numValues) As ChildNode
+
+                            .Values(.numValues).Value = Right$(Text, Len(Text) - Pos)
+                            .Values(.numValues).key = UCase$(Left$(Text, Pos - 1))
+
+                            .numValues = .numValues + 1
+                        End With
+                    End If
+                End If
+            End If
+        End If
+    Loop
+
+    Close handle
+
+    Dim I As Long
+
+    If MainNodes Then
+        'Sort main nodes to allow binary search
+        Call SortMainNodes(0, MainNodes - 1)
+
+        'Sort values of each node to allow binary search
+        For I = 0 To MainNodes - 1
+            If fileData(I).numValues Then _
+               Call SortChildNodes(fileData(I), 0, fileData(I).numValues - 1)
+        Next I
+    End If
+End Sub
+
+''
+'Sorts all child nodes within the given MainNode alphabetically by their keys. Uses quicksort.
+'
+' @param    Node The MainNode whose values are to be sorted.
+' @param    first The first index to consider when sorting.
+' @param    last The last index to be considered when sorting.
+
+Private Sub SortChildNodes(ByRef Node As MainNode, ByVal First As Integer, ByVal Last As Integer)
+'**************************************************************
+'Author: Juan Martín Sotuyo Dodero
+'Last Modify Date: 5/01/2006
+'Sorts the list of values in a given MainNode using quicksort,
+'this allows the use of Binary Search for faster searches
+'**************************************************************
+    Dim min As Integer        'First item in the list
+    Dim max As Integer        'Last item in the list
+    Dim comp As String        'Item used to compare
+    Dim Temp As ChildNode
+
+    min = First
+    max = Last
+
+    With Node
+        comp = .Values((min + max) \ 2).key
+
+        Do While min <= max
+            Do While .Values(min).key < comp And min < Last
+                min = min + 1
+            Loop
+            Do While .Values(max).key > comp And max > First
+                max = max - 1
+            Loop
+            If min <= max Then
+                Temp = .Values(min)
+                .Values(min) = .Values(max)
+                .Values(max) = Temp
+                min = min + 1
+                max = max - 1
+            End If
+        Loop
+    End With
+
+    If First < max Then SortChildNodes Node, First, max
+    If min < Last Then SortChildNodes Node, min, Last
+End Sub
+
+''
+'Sorts all main nodes in the loaded INI file alphabetically by their names. Uses quicksort.
+'
+' @param    first The first index to consider when sorting.
+' @param    last The last index to be considered when sorting.
+
+Private Sub SortMainNodes(ByVal First As Integer, ByVal Last As Integer)
+'**************************************************************
+'Author: Juan Martín Sotuyo Dodero
+'Last Modify Date: 5/01/2006
+'Sorts the MainNodes list using quicksort,
+'this allows the use of Binary Search for faster searches
+'**************************************************************
+    Dim min As Integer        'First item in the list
+    Dim max As Integer        'Last item in the list
+    Dim comp As String        'Item used to compare
+    Dim Temp As MainNode
+
+    min = First
+    max = Last
+
+    comp = fileData((min + max) \ 2).Name
+
+    Do While min <= max
+        Do While fileData(min).Name < comp And min < Last
+            min = min + 1
+        Loop
+        Do While fileData(max).Name > comp And max > First
+            max = max - 1
+        Loop
+        If min <= max Then
+            Temp = fileData(min)
+            fileData(min) = fileData(max)
+            fileData(max) = Temp
+            min = min + 1
+            max = max - 1
+        End If
+    Loop
+
+    If First < max Then SortMainNodes First, max
+    If min < Last Then SortMainNodes min, Last
+End Sub
+
+''
+'Searches for a given key within a given main section and if it exists retrieves it's value, otherwise a null string
+'
+' @param    Main The name of the main section in which we will be searching.
+' @param    key The key of the value we are looking for.
+' @returns  The value asociated with the given key under the requeted main section of the INI file or a null string if it's not found.
+
+Public Function GetValue(ByVal Main As String, ByVal key As String) As String
+'**************************************************************
+'Author: Juan Martín Sotuyo Dodero
+'Last Modify Date: 5/01/2006
+'Returns a value if the key and main node exist, or a nullstring otherwise
+'**************************************************************
+    Dim I As Long
+    Dim j As Long
+
+    'Search for the main node
+    I = FindMain(UCase$(Main))
+
+    If I >= 0 Then
+        'If valid, binary search among keys
+        j = FindKey(fileData(I), UCase$(key))
+
+        'If we found it we return it
+        If j >= 0 Then GetValue = fileData(I).Values(j).Value
+    End If
+End Function
+
+''
+'Searches for a given key within a given main section and if it exists retrieves it's value, otherwise a null string
+'
+' @param    Main The name of the main section in which we will be searching.
+' @param    key The key of the value we are looking for.
+' @returns  The value asociated with the given key under the requeted main section of the INI file or a null string if it's not found.
+
+Public Sub ChangeValue(ByVal Main As String, ByVal key As String, ByVal Value As String)
+'**************************************************************
+'Author: ZaMa
+'Last Modify Date: 27/05/2009
+'If the key and main node exist, changes the value
+'**************************************************************
+    Dim I As Long
+    Dim j As Long
+
+    'Search for the main node
+    I = FindMain(UCase$(Main))
+
+    If I < 0 Then I = AddNode(Main)
+
+    'If valid, binary search among keys
+    j = FindKey(fileData(I), UCase$(key))
+
+    If j < 0 Then
+        Call AddKey(Main, key, Value)
+    Else
+        'If we found it we change it
+        fileData(I).Values(j).Value = Value
+    End If
+End Sub
+
+''
+'Searches for a given key within a given main node and returns the index in which it's stored or the negation of the index in which it should be if not found.
+'
+' @param    Node The MainNode among whose value entries we will be searching.
+' @param    key The key of the value we are looking for.
+' @returns  The index in which the value with the key we are looking for is stored or the negation of the index in which it should be if not found.
+
+Private Function FindKey(ByRef Node As MainNode, ByVal key As String) As Long
+'**************************************************************
+'Author: Juan Martín Sotuyo Dodero
+'Last Modify Date: 5/01/2006
+'Returns the index of the value which key matches the requested one,
+'or the negation of the position were it should be if not found
+'**************************************************************
+    Dim min As Long
+    Dim max As Long
+    Dim mid As Long
+
+    min = 0
+    max = Node.numValues - 1
+
+    Do While min <= max
+        mid = (min + max) \ 2
+
+        If Node.Values(mid).key < key Then
+            min = mid + 1
+        ElseIf Node.Values(mid).key > key Then
+            max = mid - 1
+        Else
+            'We found it
+            FindKey = mid
+            Exit Function
+        End If
+    Loop
+
+    'Not found, return the negation of the position where it should be
+    '(all higher values are to the right of the list and lower values are to the left)
+    FindKey = Not min
+End Function
+
+''
+'Searches for a main section with the given name within the loaded INI file and returns the index in which it's stored or the negation of the index in which it should be if not found.
+'
+' @param    name The name of the MainNode we are looking for.
+' @returns  The index in which the main section we are looking for is stored or the negation of the index in which it should be if not found.
+
+Private Function FindMain(ByVal Name As String) As Long
+'**************************************************************
+'Author: Juan Martín Sotuyo Dodero
+'Last Modify Date: 5/01/2006
+'Returns the index of the MainNode which name matches the requested one,
+'or the negation of the position were it should be if not found
+'**************************************************************
+    Dim min As Long
+    Dim max As Long
+    Dim mid As Long
+
+    min = 0
+    max = MainNodes - 1
+
+    Do While min <= max
+        mid = (min + max) \ 2
+
+        If fileData(mid).Name < Name Then
+            min = mid + 1
+        ElseIf fileData(mid).Name > Name Then
+            max = mid - 1
+        Else
+            'We found it
+            FindMain = mid
+            Exit Function
+        End If
+    Loop
+
+    'Not found, return the negation of the position where it should be
+    '(all higher values are to the right of the list and lower values are to the left)
+    FindMain = Not min
+End Function
+
+''
+'Checks wether a given key exists or not.
+'
+' @param    name    The name of the element whose existance is being checked.
+' @returns  True if the key exists, false otherwise.
+
+Public Function KeyExists(ByVal Name As String) As Boolean
+'**************************************************************
+'Author: Juan Martín Sotuyo Dodero
+'Last Modify Date: 04/01/2008
+'Returns true of the key exists, false otherwise.
+'**************************************************************
+    KeyExists = FindMain(UCase$(Name)) >= 0
+End Function
+
+Private Function AddNode(ByRef Name As String) As Long
+'**************************************************************
+'Author: Torres Patricio (Pato)
+'Last Modify Date: 10/10/2010
+'
+'**************************************************************
+    Dim I As Long
+    Dim MainPos As Long
+
+    Name = UCase$(Name)
+
+    'Add a main node
+    ReDim Preserve fileData(MainNodes) As MainNode
+
+    If MainNodes Then
+        I = MainNodes - 1
+        MainPos = Not FindMain(Name)
+
+        Do While I >= MainPos
+            fileData(I + 1) = fileData(I)
+            I = I - 1
+        Loop
+
+        fileData(MainPos).numValues = 0
+        Erase fileData(MainPos).Values
+    End If
+
+    fileData(MainPos).Name = Name
+
+    MainNodes = MainNodes + 1
+
+    AddNode = MainPos
+End Function
+
+Private Function AddKey(ByRef Main As String, ByRef key As String, Optional ByRef Value As String = vbNullString) As Long
+'**************************************************************
+'Author: Torres Patricio (Pato)
+'Last Modify Date: 10/10/2010
+'
+'**************************************************************
+    Dim MainPos As Long
+    Dim KeyPos As Long
+    Dim I As Long
+
+    Main = UCase$(Main)
+    key = UCase$(key)
+
+    MainPos = FindMain(Main)
+
+    If MainPos < 0 Then MainPos = AddNode(Main)
+
+    With fileData(MainPos)
+        'Add it to the main node's value
+        ReDim Preserve .Values(.numValues) As ChildNode
+
+        If .numValues > 0 Then
+            I = .numValues - 1
+            KeyPos = Not FindKey(fileData(MainPos), key)
+
+            Do While I >= KeyPos
+                .Values(I + 1) = .Values(I)
+                I = I - 1
+            Loop
+        End If
+
+        .Values(KeyPos).key = key
+        .Values(KeyPos).Value = Value
+
+        .numValues = .numValues + 1
+    End With
+
+    AddKey = KeyPos
+End Function
+
+Public Sub DumpFile(ByRef File As String)
+'**************************************************************
+'Author: Torres Patricio (Pato)
+'Last Modify Date: 10/10/2010
+'
+'**************************************************************
+    Dim hFile As Integer
+    Dim I As Long
+    Dim j As Long
+
+    hFile = FreeFile()
+
+    Open File For Output As hFile
+
+    For I = 0 To MainNodes - 1
+        With fileData(I)
+            Print #hFile, "[" & .Name & "]"
+
+            For j = 0 To .numValues - 1
+                Print #hFile, .Values(j).key & "=" & .Values(j).Value
+            Next j
+
+            Print #hFile, ""
+        End With
+    Next I
+
+    Close hFile
+End Sub
+
+
+
+
+

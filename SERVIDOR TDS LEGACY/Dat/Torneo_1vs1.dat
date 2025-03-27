@@ -1,0 +1,24 @@
+[INIT]
+// INFO: Poné en 0 si querés que los puntos de canje QUE GANEN sea siempre fijo, sino pone cuanto queres que ganen (si se es automatico)
+PuntosDeCanje=3
+
+// INFO: Poné en 0 si querés que sea el oro QUE GANEN sea automatico, sino pone cuanto queres que ganen (si se es automatico)
+Oro=3500000
+
+// INFO: Poné en 0 si querés que la inscripcion sea siempre fija, sino pone cuanto queres que cueste (si se es automatico)
+Inscripcion=100000
+
+Mapa=232
+MapaAcuatico=233
+Esquina1x=42
+Esquina1y=54
+Esquina2x=56
+Esquina2y=64
+
+EsperaX=49
+EsperaY=22
+
+X1=38
+X2=60
+Y1=18
+Y2=26

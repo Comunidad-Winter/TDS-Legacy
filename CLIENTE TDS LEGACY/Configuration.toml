@@ -1,0 +1,11 @@
+[Audio]
+EffectEnabled=true
+EffectVolume=32
+InterfaceEnabled=true
+InterfaceVolume=100
+MusicEnabled=true
+MusicVolume=57
+
+[Graphics]
+Fullscreen=false
+se=false

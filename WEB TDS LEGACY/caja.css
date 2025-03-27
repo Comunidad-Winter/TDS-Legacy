@@ -1,0 +1,31 @@
+.caja {
+    width: 100%;
+    overflow: hidden;
+    background: url(/imagenes/caja_bg.gif);
+    cursor: default;
+    margin-top: 10px
+}
+
+.caja_shadow_t {
+    background: url(/imagenes/caja_shadow_t.gif) top repeat-x
+}
+
+.caja_shadow_b {
+    background: url(/imagenes/caja_shadow_b.gif) bottom repeat-x
+}
+
+.caja_t {
+    background: url(/imagenes/caja_t.gif) top repeat-x
+}
+
+.caja_b {
+    background: url(/imagenes/caja_b.gif) bottom repeat-x
+}
+
+.caja_l {
+    background: url(/imagenes/caja_l.gif) left repeat-y
+}
+
+.caja_r {
+    background: url(/imagenes/caja_r.gif) right repeat-y
+}

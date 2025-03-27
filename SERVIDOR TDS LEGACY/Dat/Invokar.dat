@@ -1,0 +1,170 @@
+[INIT]
+NumNPCs=54
+
+[LIST]
+NI1=500
+NN1=Murciélago
+
+NI2=501
+NN2=Lobo
+
+NI3=502
+NN3=Zombie
+
+NI4=503
+NN4=Esqueleto
+
+NI5=504
+NN5=Serpiente
+
+NI6=505
+NN6=Goblin
+
+NI7=506
+NN7=Gallo Salvaje
+
+NI8=507
+NN8=Lord Zombie
+
+NI9=508
+NN9=Esqueleto Guerrero
+
+NI10=509
+NN10=Pequeño Dragón rojo
+
+NI11=510
+NN11=Araña Gigante
+
+NI12=523
+NN12=Orco
+
+NI13=529
+NN13=Escorpión
+
+NI14=530
+NN14=Bandido
+
+NI15=531
+NN15=Asesino
+
+NI16=541
+NN16=Ogro
+
+NI17=540
+NN17=Duende
+
+NI18=537
+NN18=Beholder
+
+NI19=538
+NN19=Oso Pardo
+
+NI20=534
+NN20=Hormiga Gigante
+
+NI21=589
+NN21=Viuda negra
+
+NI22=553
+NN22=Medusa
+
+
+NI23=554
+NN23=Liche
+
+NI24=555
+NN24=Lord Orco
+
+NI25=557
+NN25=Jabalí Salvaje
+
+NI26=569
+NN26=Galeón Fantasmal
+
+NI27=567
+NN27=Duende Molesto
+
+NI28=570
+NN28=Lobo Invernal
+
+NI29=571
+NN29=Oso Polar
+
+NI30=572
+NN30=Pingüino
+
+NI31=573
+NN31=Golem de Hielo
+
+NI32=574
+NN32=Calamar Gigante
+
+NI33=575
+NN33=Tigre Salvaje
+
+NI34=576
+NN34=Servidor del Mal
+
+NI35=577
+NN35=Acechador Invisible
+
+NI36=583
+NN36=Arbol de Jungla
+
+NI37=584
+NN37=Ucorno
+
+NI38=551
+NN38=Mago malvado
+
+NI39=550
+NN39=Bruja
+
+NI39=549
+NN39=Orco Brujo
+
+NI40=548
+NN40=Leviatán
+
+NI41=543
+NN41=Demonio (DM)
+
+NI42=539
+NN42=Tortuga gigante
+
+NI43=542
+NN43=Gran Dragón Rojo (DD)
+
+NI44=547
+NN44=Dragón Rojo (MGM)
+
+NI45=552
+NN45=Golem (MGM)
+
+NI46=96
+NN46=Tigre (Domable)
+
+NI47=95
+NN47=Jabalí (Domable)
+
+NI48=91
+NN48=Gran Águila (Domable)
+
+NI49=79
+NN49=Tortuga gigante (Domable)
+
+NI50=78
+NN50=Oso pardo (Domable)
+
+NI51=77
+NN51=Rata (Domable)
+
+NI52=76
+NN52=Hormiga (Domable)
+
+NI53=75
+NN53=Cuervo (Domable)
+
+NI54=4
+NN54=Vaca (Domable)
+

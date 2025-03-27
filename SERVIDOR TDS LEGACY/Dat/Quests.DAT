@@ -1,0 +1,430 @@
+[INIT]
+NumQuests=24
+
+[QUEST1]
+Nombre=Bichos molestos
+Desc=Se ha reportado una plaga de molestos murcielagos en todo el territorio. Por favor mata a 3 de ellos para colaborar.
+RequiredLevel=1
+ 
+RequiredNPCs=1
+RequiredNPC1=500-3
+ 
+RewardGLD=100
+RewardEXP=500
+ 
+RewardOBJs=0
+ 
+[QUEST2]
+Nombre=Caceria de lobos
+Desc=Se han reportado muchas muertes en los alrededores de la ciudad de Banderbill. La milicia ha hecho un llamado a la comunidad para intentar solucionar este problema. Debes matar 15 lobos y traerme sus pieles para recibir una recompensa.
+RequiredLevel=2
+ 
+RequiredOBJs=1
+RequiredOBJ1=414-15
+ 
+RequiredNPCs=1
+RequiredNPC1=501-15
+ 
+RewardGLD=200
+RewardEXP=1000
+ 
+RewardOBJs=0
+ 
+[QUEST3]
+Nombre=Caceria salvaje
+Desc=Willdon, el guardabosques, precisa controlar la sobrepoblacion de lobos y osos en las cercanias de Ullathorpe. Ayudalo a retomar el control y te recompensara...
+RequiredLevel=5
+ 
+RequiredOBJs=2
+RequiredOBJ1=414-10
+RequiredOBJ2=415-10
+ 
+RewardEXP=2000
+RewardGLD=1500
+ 
+RewardOBJs=1
+RewardOBJ1=238-1
+
+
+[QUEST4]
+Nombre=Contra los muertos vivos
+Desc=Ayuda por favor!! Una horda de zombies y esqueletos esta acechando mi granja... Por favor deshazte de ellos y te recompensare con parte de mis ganancias.
+RequiredLevel=15
+ 
+RequiredNPCs=2
+RequiredNPC1=502-10
+RequiredNPC2=503-10
+
+RewardEXP=4500
+RewardGLD=3000
+ 
+RewardOBJs=1
+RewardOBJ1=559-1
+
+[QUEST5]
+Nombre=El peligroso Dorck
+Desc=Selenna, una importante miembro del circulo de druidas del Imperio, se encuentra preocupada por el peligro que significan las malignas criaturas que habitan en el bosque de Dorck. Cualquier aventurero que asesine a los aracnidos Gigantes y orcos con sus Hachas, tendra una justa recompesa.
+RequiredLevel=20
+ 
+RequiredOBJs=1
+RequiredOBJ1=3-10
+ 
+RequiredNPCs=2
+RequiredNPC1=510-10
+RequiredNPC2=523-10
+ 
+RewardGLD=5000
+RewardEXP=5000
+ 
+RewardOBJs=1
+RewardOBJ1=851-1
+
+[QUEST6]
+Nombre=Justicia divina
+Desc=Icaro, el pregonero de Banderbill, ha dictaminado una caceria furtiva de asesinos y bandidos debido a multiples actos ilicitos que los pobladores del imperio han sufrido. Trae sus cabezas y seras bien recompensado.
+RequiredLevel=18
+
+RequiredNPCs=2
+RequiredNPC1=531-10
+RequiredNPC2=530-10
+ 
+RewardEXP=7000
+RewardGLD=7000
+ 
+RewardOBJs=2
+RewardOBJ1=1003-1
+RewardOBJ2=404-1
+
+[QUEST7]
+Nombre=Capricho del Rey
+Desc=Los caprichos de Rey deben de ser cumplidos a rajatabla y nos ha pedido construir un anillo de bodas. Para ello necesitamos que nos ayudes matando a las diferentes razas de etogniles que yacen escondidos por aqui. Consigue lo solicitado y la recompensa sera tan grande como tu valentia.
+RequiredLevel=25
+
+RequiredNPCs=3
+RequiredNPC1=715-3
+RequiredNPC2=716-3
+RequiredNPC3=717-3
+ 
+RewardEXP=500000
+RewardGLD=10000
+ 
+RewardOBJs=2
+RewardOBJ1=129-1
+RewardOBJ2=659-1
+
+[QUEST8]
+Nombre=Sombras colosales
+Desc=Sir Arthur es el protector del Reino y esta reclutando gente con agallas para mantener alejado de la superficie a los titanes que amenazan con salir y destruir todo a su paso. Consigue matarlos y obtendras la mayor de todas las recompensas.
+RequiredLevel=40
+
+RequiredNPCs=3
+RequiredNPC1=930-1
+RequiredNPC2=933-3
+RequiredNPC3=934-3
+ 
+RewardEXP=8000000
+RewardGLD=100000
+ 
+RewardOBJs=2
+RewardOBJ1=1146-1
+RewardOBJ2=403-6
+
+[QUEST9]
+Nombre=Espiritu Guerrero
+Desc=Mithandrill es un elfo del bosque radicado en Arghal que no puede salir a recolectar moras por una constante amenaza de criaturas salvajes, asesinos y bandidos. Ayuda al elfo y seras recompensado con objetos y monedas.
+RequiredLevel=25
+
+RequiredNPCs=3
+RequiredNPC1=531-100
+RequiredNPC2=530-100
+RequiredNPC3=523-100
+ 
+RewardEXP=50000
+RewardGLD=100000
+ 
+RewardOBJs=2
+RewardOBJ1=1138-1
+RewardOBJ2=532-1
+
+[QUEST10]
+Nombre= Ojo por ojo
+Desc=Orfeo, el huerfano, ha jurado vengar la muerte de sus padres y por ello a decidido entregar parte de su herencia a quienes maten las criaturas que asaltaron su ciudad.
+RequiredLevel=25
+
+RequiredNPCs=4
+RequiredNPC1=510-2000
+RequiredNPC2=518-5
+RequiredNPC3=542-2
+RequiredNPC4=552-2
+
+RewardEXP=50000
+RewardGLD=500000
+ 
+RewardOBJs=1
+RewardOBJ1=1134-1
+
+[QUEST11]
+Nombre=Marcando un nuevo comienzo
+Desc=Zhireles es un guerrero veterano de Gotland y hoy es su ultimo dia protegiendo estas tierras, ante tal suceso quiere dejar su ultima huella y para eso necesita que lo ayudes a matar 3 dragones legendarios que andan merodeando por estas tierras. Si logras hacerlo, Zhireles estara dispuesto a entregarte una maravillosa recompensa... Ademas, puedes contar con suerte y obtener gemas muy valiosas que poseen los dragones.
+RequiredLevel=40
+ 
+RequiredOBJs=3
+RequiredOBJ1=411-1
+RequiredOBJ2=412-1
+RequiredOBJ3=413-1
+
+RequiredNPCs=3
+RequiredNPC1=798-1
+RequiredNPC2=799-1
+RequiredNPC3=800-1
+ 
+RewardGLD=80000
+RewardEXP=12000000
+ 
+RewardOBJs=2
+RewardOBJ1=481-1
+RewardOBJ2=483-1
+
+[QUEST12]
+Nombre=Un cazador en apuros.
+Desc=Ayudame a controlar las plagas del bosque y te recompenzare!
+RequiredLevel=15
+ 
+RequiredNPCs=4
+RequiredNPC1=515-15
+RequiredNPC2=510-15
+RequiredNPC3=523-25
+RequiredNPC4=506-150
+
+RewardGLD=15000
+RewardEXP=15000
+ 
+RewardOBJs=1
+RewardOBJ1=664-15
+
+[QUEST13]
+Nombre=Un mago en apuros.
+Desc=Ayudame a controlar las plagas del bosque y te recompenzare!
+RequiredLevel=15
+ 
+RequiredNPCs=4
+RequiredNPC1=515-15
+RequiredNPC2=510-15
+RequiredNPC3=523-25
+RequiredNPC4=506-100
+
+RewardGLD=15000
+RewardEXP=15000
+ 
+RewardOBJs=2
+RewardOBJ1=37-5000
+RewardOBJ2=394-1
+
+[QUEST14]
+Nombre=Bestias de las profundidades.
+Desc=Temibles bestias estan aterrorizando a mi grupo de exploradores! Ayudame con ellas vere que seas recompenzado.
+RequiredLevel=25
+ 
+RequiredNPCs=2
+RequiredNPC1=706-5
+RequiredNPC2=707-5
+
+RewardGLD=25000
+RewardEXP=50000
+ 
+RewardOBJs=4
+RewardOBJ1=500-1
+RewardOBJ2=131-1
+RewardOBJ3=128-1
+RewardOBJ4=36-500
+
+[QUEST15]
+Nombre=Un elfo embarrado.
+Desc=Esta mancha de lodo que no se quita! Por favor ayudame con estas criaturas y vere que estes bien vestido.
+RequiredLevel=30
+ 
+RequiredNPCs=5
+RequiredNPC1=505-250
+RequiredNPC2=611-100
+RequiredNPC3=539-100
+RequiredNPC4=534-50
+RequiredNPC5=707-5
+
+RewardGLD=50000
+RewardEXP=100000
+ 
+RewardOBJs=1
+RewardOBJ1=496-1
+
+[QUEST16]
+Nombre=La energia de las islas.
+Desc=La vida en esperanza esta sucumbiendo frente a terribles hechizos del mal. Por favor ayudame a recomponer el balance de las islas.
+RequiredLevel=30
+ 
+RequiredNPCs=5
+RequiredNPC1=551-50
+RequiredNPC2=549-50
+RequiredNPC3=513-50
+RequiredNPC4=550-25
+RequiredNPC5=706-5
+
+RewardGLD=50000
+RewardEXP=100000
+ 
+RewardOBJs=1
+RewardOBJ1=536-1
+
+[QUEST17]
+Nombre=Protector de las islas.
+Desc=Una horda de deformidades malignas hace peligrar el balance natural de estas islas, por favor ayudame a restaurarlo.
+RequiredLevel=30
+ 
+RequiredNPCs=5
+RequiredNPC1=554-50
+RequiredNPC2=511-25
+RequiredNPC3=513-25
+RequiredNPC4=537-10
+RequiredNPC5=517-10
+
+RewardGLD=50000
+RewardEXP=100000
+ 
+RewardOBJs=2
+RewardOBJ1=537-1
+RewardOBJ2=536-1
+
+[QUEST18]
+Nombre=Peligros del mar abierto.
+Desc=Cientos de navegantes estan siendo atacados por los mas peligrosos monstruos marinos. Sube a tu barca y ayudame con ellos. Prometo una paella y grandes recompensas al terminar.
+RequiredLevel=30
+ 
+RequiredNPCs=5
+RequiredNPC1=603-50
+RequiredNPC2=621-50
+RequiredNPC3=518-50
+RequiredNPC4=606-25
+RequiredNPC5=604-25
+
+RewardGLD=50000
+RewardEXP=100000
+ 
+RewardOBJs=1
+RewardOBJ1=537-1
+
+[QUEST19]
+Nombre=Huye cobarde!.
+Desc=Por favor ayudame a salir de aqui! Esta oscuro y lleno de bichos feos, juro recompensarte!
+RequiredLevel=25
+ 
+RequiredNPCs=4
+RequiredNPC1=511-50
+RequiredNPC2=554-50
+RequiredNPC3=507-50
+RequiredNPC4=543-5
+
+RewardGLD=50000
+RewardEXP=150000
+ 
+RewardOBJs=2
+RewardOBJ1=37-1500
+RewardOBJ2=38-1500
+
+[QUEST20]
+Nombre=Terrores de otros tiempos.
+Desc=Espiritus de tiempos pasados acechan nuestro presente. Si aceptas esta mision deberas viajar y derrotarlos pero te aseguro que la recompensa valdra la pena.
+RequiredLevel=38
+ 
+RequiredNPCs=4
+RequiredNPC1=589-5
+RequiredNPC2=609-5
+RequiredNPC3=946-5
+RequiredNPC4=796-5
+
+RewardGLD=250000
+RewardEXP=250000
+ 
+RewardOBJs=3
+RewardOBJ1=1138-1
+RewardOBJ2=1134-1
+RewardOBJ3=1148-1
+
+[QUEST21]
+Nombre=El coleccionista de huesos.
+Desc=Este es un calabozo lleno de oscuras criaturas. Traeme sus sangres y asi podre hacerte algunas pocimas que te ayudaran en el camino.
+RequiredLevel=35
+ 
+RequiredNPCs=4
+RequiredNPC1=553-200
+RequiredNPC2=550-100
+RequiredNPC3=551-50
+RequiredNPC4=517-25
+
+RewardGLD=250000
+RewardEXP=250000
+ 
+RewardOBJs=4
+RewardOBJ1=37-10000
+RewardOBJ2=38-10000
+RewardOBJ3=36-2000
+RewardOBJ4=39-2000
+
+[QUEST22]
+Nombre=En busca de las jaurias.
+Desc=Jaurias de lobos atacan mis mineros por todo el mundo y pronto dejaremos de poder pagarle la cuota al rey. Necesitamos un viajero audaz que termine con estos lobos!
+RequiredLevel=25
+ 
+RequiredNPCs=6
+RequiredNPC1=501-100
+RequiredNPC2=765-15
+RequiredNPC3=703-15
+RequiredNPC4=702-15
+RequiredNPC5=766-15
+RequiredNPC6=701-5
+
+RewardGLD=75000
+RewardEXP=125000
+ 
+RewardOBJs=4
+RewardOBJ1=37-7000
+RewardOBJ2=38-5000
+RewardOBJ3=36-3000
+RewardOBJ4=39-2000
+
+[QUEST23]
+Nombre=Todos a estribor!
+Desc=El mundo entero cree que por que somos pocos somos un pueblo debil. ja! Traeme escamas de Leviatan y armare fuertes armaduras.
+RequiredLevel=26
+ 
+RequiredNPCs=1
+RequiredNPC1=548-200
+
+RewardGLD=125000
+RewardEXP=250000
+ 
+RewardOBJs=1
+RewardOBJ1=403-1
+
+[QUEST24]
+Nombre=Cava tu propia tumba.
+Desc=Llevo mucho tiempo en el mercado negro de la muerte pero nunca antes me habian hecho un pedido de huesos tan grande. Ayudame a completar mi pedido y te pagare.
+RequiredLevel=16
+ 
+RequiredNPCs=6
+RequiredNPC1=598-20
+RequiredNPC2=596-20
+RequiredNPC3=599-20
+RequiredNPC4=601-20
+RequiredNPC5=600-10
+RequiredNPC6=757-2
+
+RewardGLD=40000
+RewardEXP=40000
+ 
+RewardOBJs=3
+RewardOBJ1=37-1500
+RewardOBJ2=38-1500
+RewardOBJ3=380-1
+
+
+
+
